@@ -1,0 +1,1026 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>艾彩原创官网-独立插画与手作纹样档案</title>
+<meta name="description" content="艾彩原创官网汇总独立插画与手作纹样作品档案，涵盖丝网版画、植物染色、纹样授权与线下工作坊记录。按技法、年份与创作者分层整理，提供可核对的版本差异与体验步骤，便于收藏者与设计从业者检索参考。">
+<meta name="keywords" content="艾彩原创官网">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%233b2a4a'/%3E%3Ccircle cx='26' cy='22' r='7' fill='%23e8734a'/%3E%3Ccircle cx='42' cy='30' r='9' fill='%23f2c14e'/%3E%3Ccircle cx='28' cy='42' r='8' fill='%234e9c8e'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#2a2230;
+  --ink-soft:#544a5c;
+  --muted:#7d7286;
+  --paper:#faf6f0;
+  --card:#ffffff;
+  --line:#e6dcd2;
+  --brand:#3b2a4a;
+  --brand-deep:#2a1e36;
+  --accent:#d9542b;
+  --accent-soft:#fbe7dd;
+  --gold:#c08a1e;
+  --teal:#2f7d72;
+  --teal-soft:#e2f1ee;
+  --radius:14px;
+  --radius-sm:8px;
+  --shadow:0 1px 2px rgba(42,34,48,.06),0 8px 24px rgba(42,34,48,.07);
+  --shadow-hover:0 2px 4px rgba(42,34,48,.08),0 12px 30px rgba(42,34,48,.12);
+  --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",system-ui,sans-serif;
+  --serif:"Songti SC","Noto Serif SC",Georgia,serif;
+  --announce-h:40px;
+  --header-h:64px;
+  --sticky-offset:calc(var(--announce-h) + var(--header-h) + 12px);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--sticky-offset)}
+body{
+  margin:0;
+  font-family:var(--font);
+  background:var(--paper);
+  color:var(--ink);
+  line-height:1.75;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:var(--brand);text-decoration:none}
+a:hover{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:4px}
+h1,h2,h3,h4{line-height:1.35;margin:0;font-weight:700}
+h1{font-size:clamp(1.7rem,3.4vw,2.5rem);letter-spacing:.01em}
+h2{font-size:clamp(1.25rem,2.2vw,1.6rem)}
+h3{font-size:1.06rem}
+p{margin:0 0 .8em}
+ul,ol{margin:0 0 .8em;padding-left:1.3em}
+li{margin:.2em 0}
+.container{width:min(1180px,100% - 32px);margin-inline:auto}
+.skip{position:absolute;left:-999px;top:0;background:var(--brand);color:#fff;padding:8px 16px;z-index:200}
+.skip:focus{left:8px;top:8px}
+
+/* 公告条 */
+.announce{
+  position:sticky;top:0;z-index:60;
+  background:var(--brand-deep);color:#f4ece4;
+  font-size:.83rem;height:var(--announce-h);
+  display:flex;align-items:center;
+}
+.announce .container{display:flex;align-items:center;gap:12px;overflow:hidden;white-space:nowrap}
+.announce .tag{
+  flex:none;background:var(--accent);color:#fff;border-radius:99px;
+  padding:1px 10px;font-size:.75rem;letter-spacing:.05em;
+}
+.announce .txt{overflow:hidden;text-overflow:ellipsis}
+.announce a{color:#f7d9a0}
+.announce a:hover{color:#fff}
+
+/* 页头 */
+.site-header{
+  position:sticky;top:var(--announce-h);z-index:50;
+  background:rgba(250,246,240,.94);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+  height:var(--header-h);
+}
+.header-in{display:flex;align-items:center;gap:18px;height:var(--header-h)}
+.brand{display:flex;align-items:center;gap:10px;flex:none}
+.brand-mark{width:36px;height:36px;flex:none}
+.brand-name{font-weight:800;font-size:1.1rem;color:var(--brand);letter-spacing:.02em}
+.main-nav{flex:1;min-width:0}
+.nav-list{display:flex;gap:2px;list-style:none;margin:0;padding:0;overflow-x:auto;scrollbar-width:none}
+.nav-list::-webkit-scrollbar{display:none}
+.nav-list a{
+  display:block;padding:8px 11px;border-radius:99px;font-size:.9rem;
+  color:var(--ink-soft);white-space:nowrap;
+}
+.nav-list a:hover{background:#f0e7dc;color:var(--brand)}
+.nav-list a.active{background:var(--brand);color:#fff}
+.header-tools{display:flex;align-items:center;gap:8px;flex:none}
+.search-wrap{position:relative;display:flex;align-items:center}
+.search-wrap input{
+  width:170px;padding:7px 30px 7px 12px;border:1px solid var(--line);
+  border-radius:99px;font:inherit;font-size:.86rem;background:#fff;color:var(--ink);
+  transition:width .2s ease, border-color .2s;
+}
+.search-wrap input:focus{width:210px;border-color:var(--brand);outline:none}
+.search-wrap button{
+  position:absolute;right:4px;border:0;background:none;cursor:pointer;
+  padding:4px;border-radius:50%;color:var(--muted);display:grid;place-items:center;
+}
+.search-wrap button:hover{color:var(--accent)}
+.search-panel{
+  position:absolute;top:calc(100% + 8px);right:0;width:320px;max-width:80vw;
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow);padding:8px;display:none;z-index:80;
+}
+.search-panel.show{display:block}
+.search-panel .res{list-style:none;margin:0;padding:0;max-height:300px;overflow:auto}
+.search-panel .res li{margin:0}
+.search-panel .res a{display:block;padding:8px 10px;border-radius:var(--radius-sm);font-size:.88rem;color:var(--ink)}
+.search-panel .res a:hover{background:var(--accent-soft)}
+.search-panel .empty{padding:10px;font-size:.86rem;color:var(--muted)}
+.menu-toggle{
+  display:none;border:1px solid var(--line);background:#fff;border-radius:10px;
+  width:40px;height:38px;place-items:center;cursor:pointer;color:var(--brand);
+}
+.menu-toggle:hover{border-color:var(--brand)}
+
+/* 首屏 */
+.hero{padding:44px 0 36px;position:relative;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center}
+.hero-kicker{
+  display:inline-flex;align-items:center;gap:8px;font-size:.8rem;letter-spacing:.12em;
+  color:var(--accent);font-weight:600;margin-bottom:12px;
+}
+.hero-kicker::before{content:"";width:26px;height:2px;background:var(--accent);display:inline-block}
+.hero h1{margin-bottom:14px}
+.hero-lead{font-size:1.02rem;color:var(--ink-soft);max-width:34em;margin-bottom:20px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:22px}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;padding:11px 22px;border-radius:99px;
+  font-size:.92rem;font-weight:600;border:1.5px solid transparent;cursor:pointer;
+  transition:transform .16s ease, box-shadow .16s ease, background .16s ease;
+}
+.btn-primary{background:var(--brand);color:#fff}
+.btn-primary:hover{background:var(--brand-deep);color:#fff;transform:translateY(-2px);box-shadow:var(--shadow-hover)}
+.btn-ghost{background:transparent;color:var(--brand);border-color:var(--brand)}
+.btn-ghost:hover{background:#fff;color:var(--accent);border-color:var(--accent);transform:translateY(-2px)}
+.hero-stats{display:flex;gap:26px;flex-wrap:wrap;list-style:none;padding:0;margin:0}
+.hero-stats li{display:flex;flex-direction:column}
+.hero-stats strong{font-size:1.3rem;color:var(--brand);font-family:var(--serif)}
+.hero-stats span{font-size:.78rem;color:var(--muted)}
+.hero-art{position:relative;aspect-ratio:1/1;max-width:440px;margin-inline:auto}
+.hero-art svg{width:100%;height:100%}
+.float-card{
+  position:absolute;background:#fff;border:1px solid var(--line);border-radius:12px;
+  box-shadow:var(--shadow);padding:8px 12px;font-size:.76rem;color:var(--ink-soft);
+}
+.float-card b{display:block;color:var(--brand);font-size:.88rem}
+.fc1{top:6%;left:-2%}
+.fc2{bottom:10%;right:0}
+
+/* 主布局 */
+.layout{
+  display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:36px;
+  padding:12px 0 60px;align-items:start;
+}
+.section{margin-bottom:46px;scroll-margin-top:var(--sticky-offset)}
+.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:18px;flex-wrap:wrap}
+.section-head h2{display:flex;align-items:center;gap:10px}
+.section-head h2::before{content:"";width:6px;height:22px;border-radius:3px;background:var(--accent);display:inline-block}
+.section-sub{font-size:.82rem;color:var(--muted)}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow);overflow:hidden;
+}
+
+/* 领域概览 */
+.overview-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.ov-card{
+  padding:16px;border-radius:var(--radius);background:#fff;border:1px solid var(--line);
+  border-top:4px solid var(--teal);
+}
+.ov-card:nth-child(2){border-top-color:var(--accent)}
+.ov-card:nth-child(3){border-top-color:var(--gold)}
+.ov-card:nth-child(4){border-top-color:var(--brand)}
+.ov-card h3{font-size:.96rem;margin-bottom:6px}
+.ov-card p{font-size:.84rem;color:var(--ink-soft);margin:0}
+.ov-card .num{display:block;font-family:var(--serif);font-size:1.3rem;color:var(--brand);margin-bottom:2px}
+
+/* 精选推荐 */
+.pick-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:16px}
+.pick{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;transition:transform .18s ease, box-shadow .18s ease}
+.pick:hover{transform:translateY(-3px);box-shadow:var(--shadow-hover)}
+.pick img{width:100%;height:150px;object-fit:cover}
+.pick.feature img{height:230px}
+.pick-body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.pick-body .meta{font-size:.74rem;color:var(--accent);letter-spacing:.06em;font-weight:600}
+.pick-body h3{font-size:1rem}
+.pick-body p{font-size:.84rem;color:var(--ink-soft);margin:0;flex:1}
+.tagline{font-size:.74rem;color:var(--muted)}
+
+/* 最新更新 */
+.updates{list-style:none;margin:0;padding:0;border-left:2px solid var(--line);}
+.updates li{position:relative;padding:0 0 18px 22px;margin:0}
+.updates li::before{content:"";position:absolute;left:-7px;top:8px;width:12px;height:12px;border-radius:50%;background:#fff;border:2px solid var(--teal)}
+.updates time{font-size:.76rem;color:var(--accent);font-weight:600;display:block}
+.updates h3{font-size:.96rem;margin:2px 0 3px}
+.updates p{font-size:.84rem;color:var(--ink-soft);margin:0}
+
+/* 分类入口 */
+.cat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.cat{
+  display:flex;align-items:center;gap:12px;padding:14px;background:#fff;border:1px solid var(--line);
+  border-radius:var(--radius-sm);transition:border-color .16s, transform .16s;
+}
+.cat:hover{border-color:var(--brand);transform:translateY(-2px)}
+.cat .dot{width:10px;height:10px;border-radius:50%;flex:none}
+.cat b{display:block;font-size:.92rem;color:var(--ink)}
+.cat span{font-size:.76rem;color:var(--muted)}
+
+/* 深度解析 */
+.analysis{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px 26px;box-shadow:var(--shadow)}
+.analysis h2{margin-bottom:10px}
+.analysis .lead{color:var(--ink-soft);font-size:.96rem;border-left:3px solid var(--accent);padding-left:14px;margin-bottom:18px}
+.analysis h3{font-size:1.02rem;margin:20px 0 8px;color:var(--brand)}
+.analysis h3::before{content:"§";color:var(--gold);margin-right:6px;font-weight:400}
+.analysis p{font-size:.92rem;color:var(--ink-soft)}
+.analysis strong{color:var(--ink)}
+.checklist{list-style:none;padding:0;margin:12px 0}
+.checklist li{
+  background:var(--teal-soft);border-radius:var(--radius-sm);padding:10px 14px;margin-bottom:8px;
+  font-size:.88rem;color:var(--ink-soft);
+}
+.checklist li b{color:var(--teal)}
+blockquote.quote{
+  margin:18px 0;padding:16px 20px;background:#fdf3ef;border-radius:var(--radius-sm);
+  border-left:4px solid var(--accent);font-family:var(--serif);font-size:.95rem;color:var(--ink);
+}
+.compare{width:100%;border-collapse:collapse;font-size:.86rem;margin:12px 0;border:1px solid var(--line);border-radius:var(--radius-sm);overflow:hidden}
+.compare th,.compare td{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.compare th{background:#f3ece4;color:var(--brand);font-weight:600}
+.compare tr:last-child td{border-bottom:0}
+
+/* 体验指南 步骤 */
+.steps{counter-reset:step;list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.steps li{
+  counter-increment:step;position:relative;background:#fff;border:1px solid var(--line);
+  border-radius:var(--radius);padding:16px 16px 16px 58px;font-size:.86rem;color:var(--ink-soft);
+}
+.steps li::before{
+  content:counter(step);position:absolute;left:14px;top:14px;width:30px;height:30px;
+  border-radius:50%;background:var(--brand);color:#fff;display:grid;place-items:center;
+  font-weight:700;font-size:.9rem;font-family:var(--serif);
+}
+.steps li b{display:block;color:var(--ink);font-size:.92rem;margin-bottom:3px}
+
+/* FAQ */
+.faq details{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);
+  margin-bottom:10px;padding:0 16px;transition:border-color .16s;
+}
+.faq details[open]{border-color:var(--brand)}
+.faq summary{
+  cursor:pointer;padding:14px 26px 14px 0;font-weight:600;font-size:.93rem;position:relative;list-style:none;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:"+";position:absolute;right:0;top:50%;transform:translateY(-50%);
+  color:var(--accent);font-size:1.2rem;font-weight:400;line-height:1;
+}
+.faq details[open] summary::after{content:"−"}
+.faq .ans{padding:0 0 14px;font-size:.88rem;color:var(--ink-soft)}
+
+/* 评论 */
+.comments{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.comment{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:16px;display:flex;flex-direction:column;gap:10px}
+.comment p{font-size:.88rem;color:var(--ink-soft);margin:0;flex:1}
+.comment .who{display:flex;align-items:center;gap:8px;font-size:.78rem;color:var(--muted)}
+.avatar{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:.8rem;font-weight:700;flex:none}
+.stars{color:var(--gold);font-size:.8rem;letter-spacing:2px}
+
+/* 资讯 */
+.news-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.news{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:16px}
+.news .src{font-size:.74rem;color:var(--teal);font-weight:600}
+.news h3{font-size:.95rem;margin:4px 0 6px}
+.news p{font-size:.84rem;color:var(--ink-soft);margin:0}
+
+/* 标签推荐 */
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags a{
+  display:inline-block;padding:6px 14px;border-radius:99px;background:#fff;border:1px solid var(--line);
+  font-size:.84rem;color:var(--ink-soft);transition:all .15s;
+}
+.tags a:hover{background:var(--brand);color:#fff;border-color:var(--brand);transform:translateY(-2px)}
+
+/* 榜单 */
+.rank{list-style:none;padding:0;margin:0;counter-reset:rank}
+.rank li{
+  counter-increment:rank;display:flex;gap:12px;align-items:flex-start;
+  padding:12px 0;border-bottom:1px dashed var(--line);font-size:.88rem;
+}
+.rank li:last-child{border-bottom:0}
+.rank li::before{
+  content:counter(rank);flex:none;width:26px;height:26px;border-radius:8px;
+  background:#f3ece4;color:var(--brand);display:grid;place-items:center;
+  font-weight:700;font-size:.8rem;font-family:var(--serif);
+}
+.rank li:nth-child(1)::before{background:var(--accent);color:#fff}
+.rank b{display:block;color:var(--ink);font-size:.92rem}
+.rank span{font-size:.78rem;color:var(--muted)}
+
+/* 侧栏 */
+.sidebar{position:sticky;top:var(--sticky-offset);display:flex;flex-direction:column;gap:18px}
+.side-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:16px}
+.side-card h3{font-size:.95rem;margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.side-card h3::before{content:"";width:4px;height:16px;border-radius:2px;background:var(--gold)}
+.side-nav{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:2px}
+.side-nav a{display:block;padding:6px 10px;border-radius:var(--radius-sm);font-size:.86rem;color:var(--ink-soft);border-left:2px solid transparent}
+.side-nav a:hover{background:var(--paper);color:var(--brand)}
+.side-nav a.active{color:var(--brand);font-weight:600;background:var(--accent-soft);border-left-color:var(--accent)}
+.mini-list{list-style:none;padding:0;margin:0;font-size:.84rem}
+.mini-list li{padding:6px 0;border-bottom:1px dashed var(--line)}
+.mini-list li:last-child{border-bottom:0}
+.mini-list a{color:var(--ink-soft)}
+.mini-list a:hover{color:var(--accent)}
+.mini-time{font-size:.72rem;color:var(--muted);display:block}
+.side-note{font-size:.8rem;color:var(--muted);margin:0}
+
+/* 页尾 */
+.site-footer{background:var(--brand-deep);color:#d9cfc6;padding:40px 0 24px;font-size:.86rem}
+.footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:30px}
+.footer-brand .brand-name{color:#fff}
+.footer-brand p{color:#b2a6a0;font-size:.84rem;max-width:30em}
+.footer-col h4{color:#fff;font-size:.9rem;margin-bottom:10px}
+.footer-col ul{list-style:none;padding:0;margin:0}
+.footer-col li{margin:.3em 0}
+.footer-col a{color:#b2a6a0;font-size:.84rem}
+.footer-col a:hover{color:#f2c14e}
+.footer-note{border-top:1px solid #4a3a58;margin-top:26px;padding-top:16px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:#8f8189;font-size:.78rem}
+
+/* 回顶 */
+.totop{
+  position:fixed;right:18px;bottom:18px;width:44px;height:44px;border-radius:50%;
+  background:var(--brand);color:#fff;border:0;display:grid;place-items:center;
+  cursor:pointer;box-shadow:var(--shadow-hover);opacity:0;visibility:hidden;
+  transform:translateY(10px);transition:.2s;z-index:40;
+}
+.totop.show{opacity:1;visibility:visible;transform:none}
+.totop:hover{background:var(--accent)}
+
+/* 平板 */
+@media (max-width:980px){
+  .hero-grid{grid-template-columns:1fr;gap:24px}
+  .hero-art{max-width:340px}
+  .layout{grid-template-columns:1fr}
+  .sidebar{position:static;order:2}
+  .overview-grid{grid-template-columns:repeat(2,1fr)}
+  .pick-grid{grid-template-columns:1fr 1fr}
+  .pick.feature{grid-column:1/-1}
+  .cat-grid{grid-template-columns:repeat(2,1fr)}
+  .comments{grid-template-columns:1fr 1fr}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .search-wrap input{width:130px}
+  .search-wrap input:focus{width:160px}
+}
+@media (max-width:720px){
+  .header-in{gap:10px}
+  .menu-toggle{display:grid}
+  .main-nav{
+    position:absolute;left:0;right:0;top:var(--header-h);background:var(--paper);
+    border-bottom:1px solid var(--line);box-shadow:var(--shadow);display:none;padding:8px 16px;
+  }
+  .main-nav.open{display:block}
+  .nav-list{flex-direction:column;gap:0}
+  .nav-list a{padding:11px 12px;border-radius:var(--radius-sm)}
+  .search-wrap input{width:96px}
+  .search-wrap input:focus{width:120px}
+  .hero{padding:28px 0 24px}
+  .overview-grid,.cat-grid,.pick-grid,.comments,.news-grid,.steps,.footer-grid{grid-template-columns:1fr}
+  .analysis{padding:18px 16px}
+  .section{margin-bottom:36px}
+  .hero-stats{gap:18px}
+  .float-card{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important;animation:none!important}
+  .pick:hover,.cat:hover,.btn:hover{transform:none}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+<a class="skip" href="/#main">跳到主要内容</a>
+
+<div class="announce" id="announce">
+  <div class="container">
+    <span class="tag">更新</span>
+    <span class="txt">11 月 6 日新增《霜降·苇塘》丝网版画第 3 版分色记录，植物染色档案补入靛蓝发酵第 14 天取样表。<a href="/#updates">查看条目</a></span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-in">
+    <a class="brand" href="/#" aria-label="艾彩原创官网首页">
+      <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+        <rect width="64" height="64" rx="14" fill="#3b2a4a"/>
+        <circle cx="25" cy="22" r="7" fill="#e8734a"/>
+        <circle cx="41" cy="29" r="9" fill="#f2c14e"/>
+        <circle cx="27" cy="42" r="8" fill="#4e9c8e"/>
+        <path d="M12 55c10-8 30-8 40 0" stroke="#faf6f0" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+      </svg>
+      <span class="brand-name">艾彩原创官网</span>
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="主题导航">
+      <ul class="nav-list">
+        <li><a href="/#overview">领域概览</a></li>
+        <li><a href="/#picks">精选推荐</a></li>
+        <li><a href="/#updates">最新更新</a></li>
+        <li><a href="/#categories">分类入口</a></li>
+        <li><a href="/#analysis">深度解析</a></li>
+        <li><a href="/#guide">体验指南</a></li>
+        <li><a href="/#faq">常见问答</a></li>
+        <li><a href="/#news">相关资讯</a></li>
+      </ul>
+    </nav>
+    <div class="header-tools">
+      <div class="search-wrap">
+        <input id="searchInput" type="search" placeholder="搜索纹样、技法、作者" aria-label="站内搜索" autocomplete="off">
+        <button id="searchBtn" type="button" aria-label="执行搜索">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+        </button>
+        <div class="search-panel" id="searchPanel" role="region" aria-label="搜索结果"></div>
+      </div>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="展开导航菜单" aria-expanded="false" aria-controls="mainNav">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <!-- 首屏 -->
+  <section class="hero" aria-labelledby="heroTitle">
+    <div class="container hero-grid">
+      <div>
+        <span class="hero-kicker">独立插画 · 手作纹样 · 版画存档</span>
+        <h1 id="heroTitle">艾彩原创官网</h1>
+        <p class="hero-lead">把丝网分色、植物染色与纹样授权的原始记录摊开给人看：哪一版改了套色顺序，哪一批靛蓝发色偏灰，哪张图在 10 月 30 日获得商用许可。所有条目带日期、作者与工序编号，方便设计从业者与收藏者对照实物核查。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="/#picks">浏览精选作品</a>
+          <a class="btn btn-ghost" href="/#guide">看体验步骤</a>
+        </div>
+        <ul class="hero-stats">
+          <li><strong>186</strong><span>已归档作品</span></li>
+          <li><strong>12</strong><span>合作创作者</span></li>
+          <li><strong>34</strong><span>技法条目</span></li>
+          <li><strong>9</strong><span>线下工作坊</span></li>
+        </ul>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 440 440" role="img" aria-label="抽象纹样构图">
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f6e7d8"/>
+              <stop offset="1" stop-color="#efe0cf"/>
+            </linearGradient>
+          </defs>
+          <rect x="0" y="0" width="440" height="440" rx="28" fill="url(#g1)"/>
+          <circle cx="150" cy="150" r="86" fill="#e8734a" opacity=".85"/>
+          <circle cx="290" cy="200" r="110" fill="#f2c14e" opacity=".7"/>
+          <circle cx="180" cy="300" r="92" fill="#4e9c8e" opacity=".75"/>
+          <circle cx="300" cy="330" r="56" fill="#3b2a4a" opacity=".85"/>
+          <path d="M50 380c70-40 150-40 220 0s100 20 120 0" stroke="#3b2a4a" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M60 404c70-30 150-30 220 0s100 14 100 14" stroke="#d9542b" stroke-width="2" fill="none" stroke-linecap="round" opacity=".7"/>
+          <g stroke="#3b2a4a" stroke-width="2" opacity=".35">
+            <path d="M120 80v60M100 110h40"/>
+            <path d="M340 90v50M320 115h40"/>
+          </g>
+        </svg>
+        <div class="float-card fc1"><b>第 3 版分色</b>霜降·苇塘 · 11/06</div>
+        <div class="float-card fc2"><b>靛蓝发酵 14 天</b>pH 9.4 · 11/04 取样</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container layout">
+    <div>
+      <!-- 领域概览 -->
+      <section class="section" id="overview" aria-labelledby="overviewTitle">
+        <div class="section-head">
+          <h2 id="overviewTitle">领域概览：四类手艺在做什么</h2>
+          <span class="section-sub">按工序与产出区分，不按风格分类</span>
+        </div>
+        <div class="overview-grid">
+          <article class="ov-card">
+            <span class="num">04 类</span>
+            <h3>丝网版画</h3>
+            <p>以感光胶制版，一色一网。当前档案中 52 件，单幅最多 5 色，套色对位误差记录在案。</p>
+          </article>
+          <article class="ov-card">
+            <span class="num">03 组</span>
+            <h3>植物染色</h3>
+            <p>靛蓝、茜草、栀子三类染材。发酵缸 6 口，记录 pH、温度与浸染分钟数。</p>
+          </article>
+          <article class="ov-card">
+            <span class="num">07 份</span>
+            <h3>纹样授权</h3>
+            <p>面向布料与纸品厂商的商用许可，标注授权范围、期限与是否可二次修改。</p>
+          </article>
+          <article class="ov-card">
+            <span class="num">09 场</span>
+            <h3>线下工作坊</h3>
+            <p>从绷网到染布的半日课程，每场 12 人，材料清单与成品交付时间公开。</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- 精选推荐 -->
+      <section class="section" id="picks" aria-labelledby="picksTitle">
+        <div class="section-head">
+          <h2 id="picksTitle">精选内容推荐</h2>
+          <a class="section-sub" href="/#categories">按分类查看全部 →</a>
+        </div>
+        <div class="pick-grid">
+          <article class="pick feature">
+            <img src="https://picsum.photos/seed/aicai-weitang/760/460" width="760" height="460" loading="lazy" alt="丝网版画霜降苇塘的三色叠印成品局部">
+            <div class="pick-body">
+              <span class="meta">丝网版画 · 5 色</span>
+              <h3>《霜降·苇塘》第 3 版：把橙色从底层挪到第二层</h3>
+              <p>初版芦花发闷，原因是橙色压在深褐之上。第 3 版将套色顺序改为浅黄、橙、深褐、青灰、白提亮，10 月 29 日试印 20 张，芦花亮度明显回升。分色记录与对位十字线一并归档。</p>
+              <span class="tagline">作者：林砚舟 · 版数 1/30</span>
+            </div>
+          </article>
+          <article class="pick">
+            <img src="https://picsum.photos/seed/aicai-dianlan/440/300" width="440" height="300" loading="lazy" alt="靛蓝染缸表面泡沫与木棍搅拌痕迹">
+            <div class="pick-body">
+              <span class="meta">植物染色</span>
+              <h3>靛蓝发酵第 14 天：pH 9.4 的一次偏灰</h3>
+              <p>10 月 25 日入缸的还原液，11 月 4 日取样布片偏灰蓝。温度降到 24℃，糖蜜补加 40 克后回升。</p>
+              <span class="tagline">记录人：周芷</span>
+            </div>
+          </article>
+          <article class="pick">
+            <img src="https://picsum.photos/seed/aicai-wenyang/440/300" width="440" height="300" loading="lazy" alt="纹样授权合同旁的布料样片与色卡">
+            <div class="pick-body">
+              <span class="meta">纹样授权</span>
+              <h3>「缠枝石榴」布料授权：限棉麻，不含二次修改</h3>
+              <p>10 月 30 日签出的第 7 份许可，授权期至 2028 年 4 月，仅限棉麻织物，改色需另签补充协议。</p>
+              <span class="tagline">对接：苏禾工作室</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 最新更新 -->
+      <section class="section" id="updates" aria-labelledby="updatesTitle">
+        <div class="section-head">
+          <h2 id="updatesTitle">最新更新</h2>
+          <span class="section-sub">近 30 天内可核对条目</span>
+        </div>
+        <ol class="updates">
+          <li>
+            <time datetime="2026-11-06">11 月 6 日</time>
+            <h3>《霜降·苇塘》第 3 版分色记录上线</h3>
+            <p>新增 5 张分色网目数截图，标注橙色网为 120 目、深褐网 90 目，附带 10 月 29 日试印的 20 张编号清单。</p>
+          </li>
+          <li>
+            <time datetime="2026-11-04">11 月 4 日</time>
+            <h3>靛蓝缸 3 号取样表补入</h3>
+            <p>记录 pH 9.4、温度 24℃、浸染 8 分钟与 12 分钟两组对照布片，灰蓝差异可肉眼分辨。</p>
+          </li>
+          <li>
+            <time datetime="2026-10-30">10 月 30 日</time>
+            <h3>「缠枝石榴」第 7 份商用许可登记</h3>
+            <p>授权方为苏禾工作室，范围限棉麻织物，期限 2026-11-01 至 2028-04-30，不含二次修改权。</p>
+          </li>
+          <li>
+            <time datetime="2026-10-24">10 月 24 日</time>
+            <h3>11 月 15 日绷网工作坊开放报名</h3>
+            <p>名额 12 人，材料含 60 目涤纶网、铝框与感光胶，成品为一张 20×30 厘米单色印片。</p>
+          </li>
+          <li>
+            <time datetime="2026-10-18">10 月 18 日</time>
+            <h3>《苔痕》系列第 2 版重印说明</h3>
+            <p>首版 30 张中有 6 张边缘渗墨，第 2 版改用 75 目网并延长干燥 20 分钟，重印 24 张。</p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- 分类入口 -->
+      <section class="section" id="categories" aria-labelledby="catTitle">
+        <div class="section-head">
+          <h2 id="catTitle">分类入口</h2>
+          <span class="section-sub">按技法、染材、授权与课程细分</span>
+        </div>
+        <div class="cat-grid">
+          <a class="cat" href="/#picks"><span class="dot" style="background:#d9542b"></span><span><b>丝网分色记录</b><span>52 件 · 最多 5 色</span></span></a>
+          <a class="cat" href="/#picks"><span class="dot" style="background:#2f7d72"></span><span><b>靛蓝发酵日志</b><span>6 口缸 · 14 天记录</span></span></a>
+          <a class="cat" href="/#picks"><span class="dot" style="background:#c08a1e"></span><span><b>茜草与栀子染</b><span>18 组色阶对照</span></span></a>
+          <a class="cat" href="/#news"><span class="dot" style="background:#3b2a4a"></span><span><b>纹样商用授权</b><span>7 份许可在档</span></span></a>
+          <a class="cat" href="/#guide"><span class="dot" style="background:#d9542b"></span><span><b>绷网与制版课</b><span>半日 · 12 人</span></span></a>
+          <a class="cat" href="/#analysis"><span class="dot" style="background:#2f7d72"></span><span><b>版数与原作鉴定</b><span>编号规则说明</span></span></a>
+        </div>
+      </section>
+
+      <!-- 深度解析 -->
+      <section class="section" id="analysis" aria-labelledby="analysisTitle">
+        <div class="analysis">
+          <h2 id="analysisTitle">深度解析：手工版画的版数到底该怎么信</h2>
+          <p class="lead">一个可被引用也可被反驳的判断：<strong>版数标注的价值不在数字大小，而在同一编号能否对应同一张网、同一批油墨与同一次干燥条件。</strong>离开这三项，1/30 与 1/300 没有本质差别。</p>
+
+          <h3>案例时间线：一张印片的三次身份变化</h3>
+          <p>《苔痕》系列的经历足够说明问题。2026 年 9 月 12 日首印 30 张，编号 1/30 至 30/30；10 月 18 日检查发现 6 张（编号 7、9、13、18、22、27）边缘渗墨，作者林砚舟在 10 月 20 日发布第 2 版说明，改用 75 目网、干燥延长 20 分钟，重印 24 张，编号重置为 1/24。原来那 24 张合格品被划入「首版存留」，不再计入第 2 版版数。于是同一幅图在档案里出现了两个总数：30 与 24。买家若只看到卖家写「限量 30」，很可能拿到的是第 2 版的某一张。</p>
+
+          <h3>数据对比：两种登记方式的实际差异</h3>
+          <table class="compare">
+            <thead>
+              <tr><th>登记项</th><th>只标总数</th><th>标总数＋工序编号</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>网目数</td><td>无记录</td><td>90 目 / 120 目，逐色标注</td></tr>
+              <tr><td>油墨批次</td><td>无记录</td><td>如「丙烯 2611 批，10/26 开封」</td></tr>
+              <tr><td>干燥条件</td><td>无记录</td><td>室温 22℃、湿度 55%、静置 24 小时</td></tr>
+              <tr><td>可复核性</td><td>依赖卖家口述</td><td>可与试印清单逐张对照</td></tr>
+            </tbody>
+          </table>
+          <p>右侧做法多花的时间大约是每版 40 分钟，含拍照、编号与表格录入。对一个年出 6 个版系列的作者来说，全年增加不到 5 小时，却让「第几版」从宣传语变成可查项。</p>
+
+          <h3>说法差异：作者、买家与平台各在意什么</h3>
+          <p>作者在意的是工序完整度，常把「第 3 版」当作修正记录；买家更关心手里这张是不是首版，因为首版在二级市场的挂牌价通常高出 30% 到 50%；平台则只看有没有编号与签名。三方关注点不同，导致同一句「限量 30 张」被读成三种意思。10 月 28 日的一次线下交流里，买家陈屿提出，首版存留的 24 张应单独标注「首版合格品」，否则与第 2 版混在一起，编号会撞车。作者当场未回应，11 月 2 日在档案页补了一条备注，算是部分采纳。</p>
+
+          <h3>把判断拆成可核对的结构</h3>
+          <ul class="checklist">
+            <li><b>看编号规则：</b>总数是否与试印清单张数一致。30 张试印、30 个编号，对得上才算闭环。</li>
+            <li><b>看工序编号：</b>每色网目、油墨批次、干燥时长是否齐全。缺一项，版数的可信度打七折。</li>
+            <li><b>看重印说明：</b>有渗墨、改网、改色的，是否明确写出旧编号作废范围。</li>
+            <li><b>看签名位置：</b>签名与编号是否在纸背同一角落，且与档案照片位置一致。</li>
+          </ul>
+
+          <blockquote class="quote">「第 2 版不是补救，是一次重新定价。」——林砚舟在 10 月 20 日说明末尾的原话，档案页保留了截图。</blockquote>
+          <p>这个判断可以被反驳：若作者从不进入二级市场，工序编号的商业价值有限，记录成本对个人创作反而是负担。12 位合作创作者中，目前只有 5 位维持完整工序编号，其余 7 位只登记总数与日期。所以更稳妥的结论是：<strong>版数可信度取决于登记密度，而登记密度取决于这张印片是否准备流通。</strong></p>
+        </div>
+      </section>
+
+      <!-- 体验指南 -->
+      <section class="section" id="guide" aria-labelledby="guideTitle">
+        <div class="section-head">
+          <h2 id="guideTitle">体验指南：半日绷网课做什么</h2>
+          <span class="section-sub">11 月 15 日场次流程</span>
+        </div>
+        <ol class="steps">
+          <li><b>09:00 绷网</b>60 目涤纶网绷上 30×40 厘米铝框，气钉间距 3 厘米，张力计读数 18 牛顿。</li>
+          <li><b>09:40 涂感光胶</b>刮槽匀速一遍，暗房 40℃ 烘干 25 分钟，胶层厚度约 0.12 毫米。</li>
+          <li><b>10:20 曝光</b>菲林片贴网，曝光机 120 秒，显影水温 20℃，冲网 90 秒见图案。</li>
+          <li><b>11:00 试印</b>单色丙烯，刮刀角度 70 度，印 3 张，第 1 张作废用于吸墨。</li>
+          <li><b>11:40 干燥与签名</b>室温静置 20 分钟，背签姓名、日期与 1/12 编号。</li>
+          <li><b>12:10 收尾</b>回收剩余油墨，网版清洗后带回家可再印 20 次左右。</li>
+        </ol>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section" id="faq" aria-labelledby="faqTitle">
+        <div class="section-head">
+          <h2 id="faqTitle">常见问答</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>丝网版画的套色顺序为什么会影响成品颜色？</summary>
+            <div class="ans">后印的油墨覆盖力强，若深褐压在橙色上，橙色会被压低明度。《霜降·苇塘》第 1 版正是这个顺序，导致芦花发闷；第 3 版把橙色提到第二层，白提亮放在最后，亮度恢复。油墨透明度、网目数与干燥时间共同决定最终色相，单看设计稿无法判断。</div>
+          </details>
+          <details>
+            <summary>靛蓝发酵液 pH 值掉到 9 以下还能继续染吗？</summary>
+            <div class="ans">可以补碱，但要同时看温度与还原状态。11 月 4 日 3 号缸 pH 9.4、温度 24℃，布片偏灰；补糖蜜 40 克、升温至 27℃ 后，11 月 6 日取样恢复蓝绿。若 pH 低于 8.5 且液面出现褐色泡沫，通常意味着还原失败，需要重新配缸。</div>
+          </details>
+          <details>
+            <summary>纹样商用授权里的「不含二次修改」具体指什么？</summary>
+            <div class="ans">被授权方不能改线条、配色或元素比例，只能按原样印刷或织造。「缠枝石榴」第 7 份许可中，苏禾工作室可调整布料克重与幅宽，但石榴果实数量、藤蔓走向不得变动；改色属于修改，需另签补充协议，费用按原授权金的 20% 计。</div>
+          </details>
+          <details>
+            <summary>工作坊带回家的网版可以印多少次？</summary>
+            <div class="ans">课程用的 60 目涤纶网，配合水性丙烯，正常清洗后约可再印 20 次；若用油性油墨且清洗不彻底，网孔堵塞后可能降到 8 次以内。铝框可反复使用，换网只需拆钉重绷，材料费约 35 元。</div>
+          </details>
+          <details>
+            <summary>怎么判断一张标着「1/30」的印片是不是首版？</summary>
+            <div class="ans">先查试印清单的张数与编号是否对得上，再看纸背签名旁有没有工序编号。若作者在 10 月 18 日之后发布过重印说明，需确认手里这张属于第 1 版合格品还是第 2 版；两者的网目数与干燥时长不同，边缘渗墨情况是最直观的区分点。</div>
+          </details>
+        </div>
+      </section>
+
+      <!-- 用户评论 -->
+      <section class="section" id="comments" aria-labelledby="commentTitle">
+        <div class="section-head">
+          <h2 id="commentTitle">用户评论</h2>
+          <span class="section-sub">来自工作坊与档案页留言</span>
+        </div>
+        <div class="comments">
+          <article class="comment">
+            <p>《霜降·苇塘》第 3 版拿到手，芦花那层橙确实亮了一档。对比朋友的第 1 版，深褐压上去的闷感没有了。</p>
+            <div class="who"><span class="avatar" style="background:#d9542b">陈</span><span>陈屿 · 11 月 5 日</span></div>
+            <span class="stars">★★★★★</span>
+          </article>
+          <article class="comment">
+            <p>靛蓝 3 号缸那组 8 分钟和 12 分钟的对照布片很有用，我自己在家试，8 分钟的确实偏灰。</p>
+            <div class="who"><span class="avatar" style="background:#2f7d72">周</span><span>周芷 · 11 月 4 日</span></div>
+            <span class="stars">★★★★☆</span>
+          </article>
+          <article class="comment">
+            <p>「缠枝石榴」授权条款写得太细，改个色就要再付两成，对小型工作室不太友好。</p>
+            <div class="who"><span class="avatar" style="background:#c08a1e">苏</span><span>苏禾工作室 · 11 月 2 日</span></div>
+            <span class="stars">★★★☆☆</span>
+          </article>
+          <article class="comment">
+            <p>《苔痕》首版存留那 24 张要是能单独标个记号就好了，现在跟第 2 版混着，买家分不清。</p>
+            <div class="who"><span class="avatar" style="background:#3b2a4a">林</span><span>林砚舟 · 10 月 28 日</span></div>
+            <span class="stars">★★★★☆</span>
+          </article>
+          <article class="comment">
+            <p>工作坊流程排得紧凑，12 个人共用两台曝光机，等的时间比印的时间长。</p>
+            <div class="who"><span class="avatar" style="background:#7d7286">何</span><span>何一诺 · 10 月 24 日</span></div>
+            <span class="stars">★★★☆☆</span>
+          </article>
+          <article class="comment">
+            <p>档案页的工序编号格式统一，查 11 月 6 日那条分色记录，一眼能看到 120 目和 90 目的区别。</p>
+            <div class="who"><span class="avatar" style="background:#2f7d72">吴</span><span>吴岸 · 11 月 6 日</span></div>
+            <span class="stars">★★★★★</span>
+          </article>
+        </div>
+      </section>
+
+      <!-- 相关资讯 -->
+      <section class="section" id="news" aria-labelledby="newsTitle">
+        <div class="section-head">
+          <h2 id="newsTitle">相关资讯</h2>
+          <span class="section-sub">行业动态与档案变动</span>
+        </div>
+        <div class="news-grid">
+          <article class="news">
+            <span class="src">档案变动 · 11 月 6 日</span>
+            <h3>《霜降·苇塘》分色记录新增 5 张网目截图</h3>
+            <p>橙色网 120 目、深褐网 90 目，试印 20 张的编号清单同步上线，可逐张核对边缘渗墨情况。</p>
+          </article>
+          <article class="news">
+            <span class="src">行业动态 · 10 月 30 日</span>
+            <h3>本地三家布料厂商开始要求纹样授权附工序说明</h3>
+            <p>苏禾工作室透露，采购方在合同附件中新增「网目数与油墨批次」栏，未填写的稿件退回修改。</p>
+          </article>
+          <article class="news">
+            <span class="src">档案变动 · 10 月 26 日</span>
+            <h3>《苔痕》第 2 版重印 24 张，编号重置</h3>
+            <p>首版 6 张渗墨品作废，合格 24 张划入首版存留；第 2 版改用 75 目网。</p>
+          </article>
+          <article class="news">
+            <span class="src">行业动态 · 10 月 22 日</span>
+            <h3>靛蓝染材价格本月上调约 8%</h3>
+            <p>染材商报价显示，发酵用糖蜜与靛蓝粉同步上涨，单缸成本增加约 26 元，工作坊材料费暂未调整。</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- 相关推荐 -->
+      <section class="section" id="related" aria-labelledby="relatedTitle">
+        <div class="section-head">
+          <h2 id="relatedTitle">相关推荐</h2>
+          <span class="section-sub">按具体条目检索</span>
+        </div>
+        <div class="tags">
+          <a href="/#picks">丝网分色记录</a>
+          <a href="/#picks">靛蓝发酵日志</a>
+          <a href="/#picks">茜草染色色阶</a>
+          <a href="/#news">纹样商用授权</a>
+          <a href="/#guide">绷网与制版课</a>
+          <a href="/#analysis">版数与原作鉴定</a>
+          <a href="/#picks">霜降·苇塘</a>
+          <a href="/#updates">苔痕第 2 版</a>
+          <a href="/#news">缠枝石榴</a>
+          <a href="/#guide">感光胶涂布</a>
+        </div>
+      </section>
+
+      <!-- 补充板块：榜单 -->
+      <section class="section" id="ranking" aria-labelledby="rankTitle">
+        <div class="section-head">
+          <h2 id="rankTitle">10 月档案访问榜</h2>
+          <span class="section-sub">按条目页停留时长排序</span>
+        </div>
+        <div class="card" style="padding:16px 20px">
+          <ol class="rank">
+            <li><span><b>《霜降·苇塘》第 3 版分色记录</b><span>平均停留 4 分 12 秒 · 11 月 6 日更新</span></span></li>
+            <li><span><b>靛蓝 3 号缸取样表</b><span>平均停留 3 分 48 秒 · 11 月 4 日更新</span></span></li>
+            <li><span><b>「缠枝石榴」授权条款全文</b><span>平均停留 3 分 05 秒 · 10 月 30 日更新</span></span></li>
+            <li><span><b>《苔痕》第 2 版重印说明</b><span>平均停留 2 分 51 秒 · 10 月 18 日发布</span></span></li>
+            <li><span><b>绷网工作坊材料清单</b><span>平均停留 2 分 33 秒 · 10 月 24 日开放</span></span></li>
+          </ol>
+        </div>
+      </section>
+    </div>
+
+    <!-- 侧栏 -->
+    <aside class="sidebar" aria-label="侧栏导航与速览">
+      <div class="side-card">
+        <h3>栏目导航</h3>
+        <ul class="side-nav" id="sideNav">
+          <li><a href="/#overview">领域概览</a></li>
+          <li><a href="/#picks">精选推荐</a></li>
+          <li><a href="/#updates">最新更新</a></li>
+          <li><a href="/#categories">分类入口</a></li>
+          <li><a href="/#analysis">深度解析</a></li>
+          <li><a href="/#guide">体验指南</a></li>
+          <li><a href="/#faq">常见问答</a></li>
+          <li><a href="/#comments">用户评论</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>本周条目速览</h3>
+        <ul class="mini-list">
+          <li><a href="/#updates">霜降·苇塘第 3 版</a><span class="mini-time">11 月 6 日</span></li>
+          <li><a href="/#updates">靛蓝 3 号缸取样</a><span class="mini-time">11 月 4 日</span></li>
+          <li><a href="/#updates">缠枝石榴第 7 份许可</a><span class="mini-time">10 月 30 日</span></li>
+          <li><a href="/#updates">绷网工作坊报名</a><span class="mini-time">10 月 24 日</span></li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>登记规则</h3>
+        <p class="side-note">每个版系列须登记总数、网目数、油墨批次与干燥条件；重印时旧编号作废范围单独说明。缺项的条目不进入精选推荐。</p>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="site-footer" id="siteFooter">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand" style="margin-bottom:10px">
+          <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+            <rect width="64" height="64" rx="14" fill="#4a3a58"/>
+            <circle cx="25" cy="22" r="7" fill="#e8734a"/>
+            <circle cx="41" cy="29" r="9" fill="#f2c14e"/>
+            <circle cx="27" cy="42" r="8" fill="#4e9c8e"/>
+          </svg>
+          <span class="brand-name" style="color:#fff">艾彩原创官网</span>
+        </div>
+        <p>把工序编号、染缸记录与授权条款放在同一处，供收藏者与设计从业者按条目核查。</p>
+        <p style="font-size:.78rem;color:#8f8189">档案更新：11 月 6 日新增《霜降·苇塘》第 3 版分色记录；11 月 4 日补入靛蓝 3 号缸取样表。</p>
+      </div>
+      <div class="footer-col">
+        <h4>作品档案</h4>
+        <ul>
+          <li><a href="/#picks">丝网分色记录</a></li>
+          <li><a href="/#picks">靛蓝发酵日志</a></li>
+          <li><a href="/#picks">茜草与栀子染</a></li>
+          <li><a href="/#categories">版数与原作鉴定</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>参与方式</h4>
+        <ul>
+          <li><a href="/#guide">半日绷网课</a></li>
+          <li><a href="/#updates">11 月 15 日场次</a></li>
+          <li><a href="/#faq">材料与回收</a></li>
+          <li><a href="/#comments">学员留言</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>授权与说明</h4>
+        <ul>
+          <li><a href="/#news">纹样商用许可</a></li>
+          <li><a href="/#analysis">工序登记规则</a></li>
+          <li><a href="/#ranking">10 月访问榜</a></li>
+          <li><a href="/#related">相关推荐</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-note">
+      <span>示例数据说明：作品数量、染缸编号、授权条款与课程时间均为演示条目，不构成实际交易承诺。</span>
+      <span>© 2026 艾彩原创官网 · 内容以档案页登记为准</span>
+    </div>
+  </div>
+</footer>
+
+<button class="totop" id="toTop" type="button" aria-label="回到顶部">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script>
+(function(){
+  /* 移动端菜单 */
+  var menuToggle = document.getElementById('menuToggle');
+  var mainNav = document.getElementById('mainNav');
+  if(menuToggle && mainNav){
+    menuToggle.addEventListener('click', function(){
+      var open = mainNav.classList.toggle('open');
+      menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      menuToggle.setAttribute('aria-label', open ? '收起导航菜单' : '展开导航菜单');
+    });
+    mainNav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A' && window.innerWidth <= 720){
+        mainNav.classList.remove('open');
+        menuToggle.setAttribute('aria-expanded','false');
+        menuToggle.setAttribute('aria-label','展开导航菜单');
+      }
+    });
+  }
+
+  /* 搜索 */
+  var items = [];
+  document.querySelectorAll('main [id]').forEach(function(sec){
+    var h = sec.querySelector('h1,h2,h3');
+    if(h){ items.push({id:sec.id, text:h.textContent.trim()}); }
+  });
+  document.querySelectorAll('.pick h3, .news h3, .comment p, .faq summary, .rank b, .cat b').forEach(function(el){
+    var sec = el.closest('section');
+    if(sec && sec.id){
+      items.push({id:sec.id, text:el.textContent.trim()});
+    }
+  });
+  var input = document.getElementById('searchInput');
+  var panel = document.getElementById('searchPanel');
+  var btn = document.getElementById('searchBtn');
+  var timer = null;
+
+  function esc(s){
+    return s.replace(/[&<>"']/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+
+  function runSearch(){
+    var q = input.value.trim().toLowerCase();
+    if(!q){ panel.classList.remove('show'); panel.innerHTML=''; return; }
+    var hits = [];
+    var seen = {};
+    items.forEach(function(it){
+      if(it.text.toLowerCase().indexOf(q) > -1 && !seen[it.id + it.text]){
+        seen[it.id + it.text] = true;
+        hits.push(it);
+      }
+    });
+    var html = '';
+    if(hits.length){
+      html = '<ul class="res">' + hits.slice(0,8).map(function(it){
+        return '<li><a href="/#' + encodeURIComponent(it.id) + '">' + esc(it.text) + '</a></li>';
+      }).join('') + '</ul>';
+    } else {
+      html = '<div class="empty">没有匹配「' + esc(input.value.trim()) + '」的条目，试试「靛蓝」「分色」或「授权」。</div>';
+    }
+    panel.innerHTML = html;
+    panel.classList.add('show');
+  }
+
+  input.addEventListener('input', function(){
+    clearTimeout(timer);
+    timer = setTimeout(runSearch, 180);
+  });
+  input.addEventListener('focus', function(){
+    if(input.value.trim()) runSearch();
+  });
+  btn.addEventListener('click', runSearch);
+  input.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); runSearch(); }
+    if(e.key === 'Escape'){ panel.classList.remove('show'); }
+  });
+  document.addEventListener('click', function(e){
+    if(!e.target.closest('.search-wrap')){ panel.classList.remove('show'); }
+  });
+
+  /* 侧栏高亮 */
+  var sideLinks = document.querySelectorAll('#sideNav a');
+  var sections = Array.prototype.map.call(sideLinks, function(a){
+    return document.querySelector(a.getAttribute('href').replace('/#','#'));
+  }).filter(Boolean);
+
+  function highlight(){
+    var pos = window.scrollY + 160;
+    var current = null;
+    sections.forEach(function(sec){
+      if(sec.offsetTop <= pos){ current = sec.id; }
+    });
+    sideLinks.forEach(function(a){
+      var on = a.getAttribute('href') === '/#' + current;
+      a.classList.toggle('active', on);
+    });
+  }
+  window.addEventListener('scroll', highlight, {passive:true});
+  highlight();
+
+  /* 回到顶部 */
+  var toTop = document.getElementById('toTop');
+  function toggleTop(){
+    toTop.classList.toggle('show', window.scrollY > 420);
+  }
+  window.addEventListener('scroll', toggleTop, {passive:true});
+  toTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
+  });
+  toggleTop();
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"艾彩原创官网",
+  "inLanguage":"zh-CN",
+  "description":"独立插画与手作纹样作品档案，记录丝网分色、植物染色、纹样授权与线下工作坊的工序细节。"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"丝网版画的套色顺序为什么会影响成品颜色？","acceptedAnswer":{"@type":"Answer","text":"后印的油墨覆盖力强，若深褐压在橙色上，橙色会被压低明度。调整为橙色先印、白提亮最后印，亮度恢复。"}},
+    {"@type":"Question","name":"靛蓝发酵液 pH 值掉到 9 以下还能继续染吗？","acceptedAnswer":{"@type":"Answer","text":"可以补碱，但要同时看温度与还原状态。补糖蜜并升温后取样恢复蓝绿；若 pH 低于 8.5 且出现褐色泡沫，通常需要重新配缸。"}},
+    {"@type":"Question","name":"纹样商用授权里的「不含二次修改」具体指什么？","acceptedAnswer":{"@type":"Answer","text":"被授权方不能改线条、配色或元素比例，只能按原样印刷或织造；改色属于修改，需另签补充协议。"}},
+    {"@type":"Question","name":"工作坊带回家的网版可以印多少次？","acceptedAnswer":{"@type":"Answer","text":"60 目涤纶网配合水性丙烯，正常清洗后约可再印 20 次；油性油墨且清洗不彻底时可能降到 8 次以内。"}},
+    {"@type":"Question","name":"怎么判断一张标着「1/30」的印片是不是首版？","acceptedAnswer":{"@type":"Answer","text":"查试印清单张数与编号是否对得上，再看纸背签名旁有无工序编号，并确认是否在重印说明发布之前完成。"}}
+  ]
+}
+</script>
+</body>
+              </html>
