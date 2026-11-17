@@ -1,0 +1,1047 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>极品反差在线播放-内容方向与观看指南</title>
+<meta name="description" content="极品反差在线播放频道整理反差题材的片单分类、播放画质与更新节奏，收录本周上线的中字条目、角色设定对比和观众反馈，帮助按题材、时长与版本快速筛选，附常见问题与相关推荐。">
+<meta name="keywords" content="极品反差在线播放">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2316121f'/%3E%3Cpath d='M14 44 L30 18 L38 32 L46 24 L52 44 Z' fill='%23ff5a7a'/%3E%3Ccircle cx='44' cy='18' r='6' fill='%23ffd166'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#1b1622;
+  --ink-2:#3d3547;
+  --muted:#6c6278;
+  --line:#e4ddec;
+  --bg:#faf7fb;
+  --bg-2:#f2ecf6;
+  --card:#ffffff;
+  --primary:#7a2c6b;
+  --primary-2:#a63d8c;
+  --accent:#e04f6e;
+  --accent-2:#f3b23c;
+  --ok:#2f7d63;
+  --radius:14px;
+  --radius-sm:9px;
+  --shadow:0 6px 20px rgba(56,30,60,.08);
+  --shadow-sm:0 2px 8px rgba(56,30,60,.06);
+  --fs-1:clamp(1.55rem,3.6vw,2.35rem);
+  --fs-2:clamp(1.18rem,2.2vw,1.45rem);
+  --fs-3:1.06rem;
+  --gap:clamp(14px,2vw,22px);
+  --wrap:1180px;
+  --announce-h:0px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--ink);
+  background:var(--bg);
+  line-height:1.78;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%}
+a{color:var(--primary);text-decoration:none}
+a:hover{text-decoration:underline}
+h1,h2,h3,h4{line-height:1.35;margin:0}
+p{margin:0 0 .85em}
+ul,ol{margin:0 0 .85em;padding-left:1.25em}
+:focus-visible{outline:3px solid var(--accent-2);outline-offset:2px;border-radius:4px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 clamp(14px,3vw,26px)}
+.skip{position:absolute;left:-9999px;top:0;background:var(--primary);color:#fff;padding:10px 16px;z-index:999}
+.skip:focus{left:8px;top:8px}
+
+/* 公告条 + 页头 吸顶 */
+.sticky-shell{position:sticky;top:0;z-index:80}
+.announce{
+  background:linear-gradient(90deg,#2a1130,#4a1c4a 55%,#7a2c6b);
+  color:#ffe9f3;font-size:.86rem;
+}
+.announce .wrap{display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding-top:7px;padding-bottom:7px}
+.announce .tag{
+  background:var(--accent);color:#fff;font-weight:700;border-radius:999px;
+  padding:1px 10px;font-size:.78rem;letter-spacing:.02em;white-space:nowrap;
+}
+.announce p{margin:0;color:#f6d9e6}
+.announce a{color:#ffd166;font-weight:600;text-decoration:underline}
+.site-header{
+  background:rgba(250,247,251,.94);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+  box-shadow:var(--shadow-sm);
+}
+.hd-inner{display:flex;align-items:center;gap:16px;padding-top:10px;padding-bottom:10px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;flex:none}
+.brand-mark{width:40px;height:40px;flex:none}
+.brand-text{font-weight:800;font-size:1.08rem;letter-spacing:.01em;color:var(--ink);line-height:1.2}
+.brand-text small{display:block;font-weight:500;font-size:.7rem;color:var(--muted);letter-spacing:.14em}
+.nav-toggle{
+  display:none;border:1px solid var(--line);background:var(--card);color:var(--ink);
+  border-radius:var(--radius-sm);padding:7px 12px;font-size:.9rem;font-weight:600;cursor:pointer;
+}
+.main-nav{margin-left:auto}
+.main-nav ul{display:flex;flex-wrap:wrap;gap:2px 4px;list-style:none;margin:0;padding:0}
+.main-nav a{
+  display:block;padding:6px 10px;border-radius:var(--radius-sm);color:var(--ink-2);
+  font-size:.9rem;font-weight:500;
+}
+.main-nav a:hover{background:var(--bg-2);color:var(--primary);text-decoration:none}
+.main-nav a.active{background:var(--primary);color:#fff}
+.hd-extra{display:flex;align-items:center;gap:8px;flex:none}
+.search{position:relative}
+.search input{
+  width:190px;padding:7px 12px;border:1px solid var(--line);border-radius:999px;
+  font-size:.88rem;background:var(--card);color:var(--ink);
+}
+.search input::placeholder{color:#a497b0}
+.search-result{
+  position:absolute;top:calc(100% + 6px);left:0;right:0;background:var(--card);
+  border:1px solid var(--line);border-radius:var(--radius-sm);box-shadow:var(--shadow);
+  font-size:.84rem;padding:8px 10px;display:none;max-height:250px;overflow:auto;z-index:90;
+}
+.search-result.show{display:block}
+.search-result ul{list-style:none;margin:0;padding:0}
+.search-result li{padding:4px 0;border-bottom:1px dashed var(--line)}
+.search-result li:last-child{border-bottom:0}
+.search-result .none{color:var(--accent)}
+.btn{
+  display:inline-block;border-radius:999px;padding:8px 18px;font-size:.92rem;font-weight:700;
+  border:1px solid transparent;cursor:pointer;text-align:center;
+}
+.btn-primary{background:linear-gradient(135deg,var(--primary),var(--primary-2));color:#fff}
+.btn-primary:hover{text-decoration:none;filter:brightness(1.06)}
+.btn-ghost{border-color:var(--primary);color:var(--primary);background:transparent}
+.btn-ghost:hover{background:var(--bg-2);text-decoration:none}
+
+/* 首屏 */
+section[id]{scroll-margin-top:112px}
+.hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(900px 320px at 88% -10%,rgba(224,79,110,.20),transparent 65%),
+    radial-gradient(700px 300px at 0% 20%,rgba(122,44,107,.13),transparent 60%),
+    linear-gradient(180deg,#faf7fb,#f2ecf6);
+  border-bottom:1px solid var(--line);
+}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(20px,4vw,48px);align-items:center;padding:clamp(26px,5vw,58px) 0}
+.hero h1{font-size:var(--fs-1);letter-spacing:.005em;margin-bottom:.35em}
+.hero .kicker{
+  display:inline-flex;align-items:center;gap:8px;font-size:.8rem;font-weight:700;
+  color:var(--primary);background:#fff;border:1px solid var(--line);border-radius:999px;
+  padding:3px 12px;margin-bottom:14px;letter-spacing:.06em;
+}
+.hero .lead{color:var(--ink-2);font-size:1.02rem;max-width:36em}
+.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 14px}
+.hero-stats{display:flex;gap:22px;flex-wrap:wrap;list-style:none;padding:0;margin:0}
+.hero-stats li{font-size:.85rem;color:var(--muted)}
+.hero-stats b{display:block;font-size:1.25rem;color:var(--ink);line-height:1.2}
+.hero-art{position:relative;min-height:250px}
+.hero-art svg{width:100%;height:auto}
+
+/* 通用区块 */
+.block{padding:clamp(26px,4vw,46px) 0;border-bottom:1px solid var(--line)}
+.block-head{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:var(--gap)}
+.block-head h2{font-size:var(--fs-2)}
+.block-head .sub{color:var(--muted);font-size:.88rem;margin:4px 0 0}
+.block-head .more{font-size:.86rem;font-weight:600;white-space:nowrap}
+.grid{display:grid;gap:var(--gap)}
+.g-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.g-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow-sm);overflow:hidden;display:flex;flex-direction:column;
+  transition:transform .18s ease,box-shadow .18s ease;
+}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.card-body{padding:14px 16px 16px}
+.card h3{font-size:1.02rem;margin-bottom:6px}
+.card p{font-size:.88rem;color:var(--ink-2);margin-bottom:.5em}
+.card .meta{font-size:.78rem;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap}
+.card img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;background:var(--bg-2)}
+.pill{
+  display:inline-block;font-size:.74rem;font-weight:700;padding:1px 9px;border-radius:999px;
+  background:var(--bg-2);color:var(--primary);border:1px solid var(--line);
+}
+.pill.hot{background:#ffe7ee;color:#b82046;border-color:#ffcad8}
+.pill.new{background:#e6f4ee;color:var(--ok);border-color:#c9e6db}
+
+/* 紧凑列表 */
+.tight-list{list-style:none;padding:0;margin:0;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);overflow:hidden}
+.tight-list li{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:baseline;padding:11px 16px;border-bottom:1px dashed var(--line)}
+.tight-list li:last-child{border-bottom:0}
+.tight-list .date{font-variant-numeric:tabular-nums;color:var(--accent);font-weight:700;font-size:.82rem;white-space:nowrap}
+.tight-list .ttl{font-size:.93rem;font-weight:600}
+.tight-list .tagline{font-size:.78rem;color:var(--muted)}
+
+/* 分栏正文 */
+.split{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,.9fr);gap:clamp(18px,3vw,34px);align-items:start}
+.article-body h3{font-size:1.1rem;margin:1.3em 0 .5em;color:var(--primary)}
+.article-body h3:first-child{margin-top:0}
+.article-body p{font-size:.96rem;color:var(--ink-2)}
+.article-body strong{color:var(--ink)}
+.callout{
+  border-left:4px solid var(--accent);background:#fff;border-radius:0 var(--radius) var(--radius) 0;
+  padding:12px 16px;box-shadow:var(--shadow-sm);font-size:.92rem;color:var(--ink-2);margin:1em 0;
+}
+.aside-nav{
+  position:sticky;top:130px;background:var(--card);border:1px solid var(--line);
+  border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow-sm);
+}
+.aside-nav strong{display:block;font-size:.8rem;letter-spacing:.1em;color:var(--muted);margin-bottom:8px}
+.aside-nav ol{list-style:none;padding:0;margin:0;counter-reset:n}
+.aside-nav li{counter-increment:n;margin-bottom:2px}
+.aside-nav a{display:block;font-size:.88rem;padding:5px 8px;border-radius:var(--radius-sm);color:var(--ink-2);border-left:3px solid transparent}
+.aside-nav a:hover{background:var(--bg-2);text-decoration:none}
+.aside-nav a.current{background:var(--bg-2);border-left-color:var(--primary);color:var(--primary);font-weight:700}
+.aside-nav a::before{content:counter(n,decimal-leading-zero) " ";color:var(--muted);font-variant-numeric:tabular-nums;font-size:.78rem}
+
+/* 对照面板 */
+.compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--card)}
+.compare>div{padding:16px 18px}
+.compare>div+div{border-left:1px solid var(--line)}
+.compare h3{font-size:.98rem;margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.compare dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 12px;font-size:.86rem}
+.compare dt{color:var(--muted)}
+.compare dd{margin:0;color:var(--ink-2)}
+.compare .mark{width:22px;height:22px;flex:none}
+
+/* 编号步骤 */
+.steps{list-style:none;padding:0;margin:0;counter-reset:s;display:grid;gap:12px}
+.steps li{
+  counter-increment:s;position:relative;background:var(--card);border:1px solid var(--line);
+  border-radius:var(--radius);padding:14px 16px 14px 56px;box-shadow:var(--shadow-sm);
+  font-size:.92rem;color:var(--ink-2);
+}
+.steps li::before{
+  content:counter(s);position:absolute;left:14px;top:14px;width:28px;height:28px;border-radius:50%;
+  background:linear-gradient(135deg,var(--primary),var(--primary-2));color:#fff;font-weight:800;
+  display:grid;place-items:center;font-size:.85rem;
+}
+.steps b{color:var(--ink)}
+
+/* 标签索引 */
+.tag-index{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0}
+.tag-index a{
+  display:inline-block;font-size:.84rem;padding:5px 13px;border-radius:999px;
+  background:var(--card);border:1px solid var(--line);color:var(--ink-2);font-weight:600;
+}
+.tag-index a:hover{border-color:var(--primary);color:var(--primary);text-decoration:none;background:var(--bg-2)}
+.tag-index .count{color:var(--muted);font-weight:400;font-size:.76rem;margin-left:4px}
+
+/* 问答 */
+details.faq{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);margin-bottom:10px}
+details.faq summary{
+  cursor:pointer;list-style:none;padding:13px 44px 13px 16px;font-weight:700;font-size:.95rem;
+  position:relative;color:var(--ink);
+}
+details.faq summary::-webkit-details-marker{display:none}
+details.faq summary::after{
+  content:"+";position:absolute;right:16px;top:10px;font-size:1.25rem;color:var(--primary);font-weight:700;
+}
+details.faq[open] summary::after{content:"−"}
+details.faq .ans{padding:0 16px 14px;font-size:.9rem;color:var(--ink-2)}
+details.faq[open]{border-color:#cbb4c9}
+
+/* 评论 */
+.comments{display:grid;gap:12px}
+.comment{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:13px 16px;box-shadow:var(--shadow-sm)}
+.comment .who{display:flex;align-items:center;gap:9px;margin-bottom:6px;font-size:.82rem;color:var(--muted)}
+.avatar{width:26px;height:26px;border-radius:50%;flex:none;display:grid;place-items:center;font-size:.74rem;font-weight:800;color:#fff;background:var(--primary)}
+.comment:nth-child(2n) .avatar{background:var(--accent)}
+.comment:nth-child(3n) .avatar{background:var(--ok)}
+.comment:nth-child(4n) .avatar{background:#5a4aa8}
+.comment .verdict{font-weight:700;color:var(--ink);font-size:.9rem;display:block;margin-bottom:3px}
+.comment p{font-size:.89rem;color:var(--ink-2);margin:0}
+.comment .ref{font-size:.78rem;color:var(--muted);margin-top:5px;display:block}
+
+/* 时间线 */
+.timeline{list-style:none;padding:0;margin:0;position:relative}
+.timeline::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:var(--line)}
+.timeline li{position:relative;padding:0 0 16px 30px}
+.timeline li::before{content:"";position:absolute;left:2px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--card);border:3px solid var(--primary)}
+.timeline time{font-size:.78rem;color:var(--accent);font-weight:700;font-variant-numeric:tabular-nums}
+.timeline b{display:block;font-size:.93rem;margin:2px 0}
+.timeline span{font-size:.85rem;color:var(--ink-2)}
+
+/* 引语卡 */
+.quote-card{
+  background:linear-gradient(140deg,#2a1130,#4a1c4a);color:#f8e8f2;border-radius:var(--radius);
+  padding:clamp(18px,3vw,28px);box-shadow:var(--shadow);position:relative;overflow:hidden;
+}
+.quote-card::before{content:"“";position:absolute;font-size:7rem;line-height:1;top:-18px;right:14px;color:rgba(255,255,255,.10);font-family:Georgia,serif}
+.quote-card p{font-size:1rem;margin-bottom:.6em;color:#fbeaf4}
+.quote-card footer{font-size:.82rem;color:#e0b8d2}
+.quote-card .role{color:#ffd166;font-weight:700}
+
+/* 榜单 */
+.rank{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.rank li{display:grid;grid-template-columns:36px 1fr auto;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--radius-sm);padding:10px 14px;box-shadow:var(--shadow-sm)}
+.rank .no{font-weight:800;font-size:1.1rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.rank li:nth-child(1) .no{color:var(--accent)}
+.rank li:nth-child(2) .no{color:var(--primary-2)}
+.rank li:nth-child(3) .no{color:var(--accent-2)}
+.rank .name{font-size:.93rem;font-weight:700}
+.rank .name small{display:block;font-weight:400;color:var(--muted);font-size:.78rem}
+.rank .score{font-size:.8rem;font-weight:700;color:var(--ok);white-space:nowrap}
+
+/* 页尾 */
+.site-footer{background:#1d1224;color:#d9c9e2;padding:clamp(28px,4vw,46px) 0 20px;font-size:.88rem}
+.foot-grid{display:grid;grid-template-columns:1.3fr 2fr;gap:clamp(20px,4vw,44px)}
+.foot-brand .brand-text{color:#fff}
+.foot-brand p{color:#b9a5c6;font-size:.86rem;max-width:30em}
+.foot-cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.foot-cols h3{font-size:.8rem;letter-spacing:.12em;color:#ffd166;margin-bottom:8px}
+.foot-cols ul{list-style:none;padding:0;margin:0}
+.foot-cols li{margin-bottom:4px}
+.foot-cols a{color:#d9c9e2;font-size:.85rem}
+.foot-cols a:hover{color:#fff}
+.foot-note{border-top:1px solid #3a2744;margin-top:26px;padding-top:14px;font-size:.78rem;color:#9c88a9;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.foot-note p{margin:0}
+
+/* 回到顶部 */
+.to-top{
+  position:fixed;right:16px;bottom:18px;width:44px;height:44px;border-radius:50%;
+  background:var(--primary);color:#fff;border:0;font-size:1.1rem;cursor:pointer;
+  display:none;place-items:center;box-shadow:var(--shadow);z-index:70;
+}
+.to-top.show{display:grid}
+
+/* 响应式 */
+@media(max-width:980px){
+  .hero-grid{grid-template-columns:1fr}
+  .hero-art{order:2;max-width:520px}
+  .split{grid-template-columns:1fr}
+  .aside-nav{position:static;order:2}
+  .g-3{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .foot-grid{grid-template-columns:1fr}
+  .main-nav{order:4;flex-basis:100%;margin-left:0;display:none}
+  .main-nav.open{display:block}
+  .nav-toggle{display:inline-block;margin-left:auto}
+  .hd-extra{order:3}
+  .search input{width:150px}
+}
+@media(max-width:640px){
+  .g-3,.g-2{grid-template-columns:1fr}
+  .compare{grid-template-columns:1fr}
+  .compare>div+div{border-left:0;border-top:1px solid var(--line)}
+  .foot-cols{grid-template-columns:1fr 1fr}
+  .announce .wrap{font-size:.8rem}
+  .tight-list li{grid-template-columns:auto 1fr}
+  .tight-list .tagline{grid-column:2}
+  .hero-stats{gap:16px}
+  .search input{width:120px}
+  .hd-extra .btn{padding:7px 13px;font-size:.85rem}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important;animation:none!important}
+  .card:hover{transform:none}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">跳到主内容</a>
+
+<div class="sticky-shell">
+  <div class="announce">
+    <div class="wrap">
+      <span class="tag">更新</span>
+      <p>11月7日片单新增《双面夜班》中字版与《温柔面具》4K版；<a href="/#latest">查看本周 9 条更新</a></p>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="wrap hd-inner">
+      <div class="brand">
+        <svg class="brand-mark" viewBox="0 0 64 64" role="img" aria-label="反差内容图形标志">
+          <rect width="64" height="64" rx="14" fill="#16121f"/>
+          <path d="M12 46 L29 16 L37 31 L45 22 L53 46 Z" fill="#ff5a7a"/>
+          <circle cx="45" cy="16" r="6" fill="#ffd166"/>
+          <path d="M12 46 Q32 38 53 46" stroke="#a63d8c" stroke-width="3" fill="none" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-text">极品反差在线播放<small>DUAL TONE VIEW</small></span>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" type="button">频道菜单</button>
+      <nav class="main-nav" id="mainNav" aria-label="主题频道导航">
+        <ul>
+          <li><a href="/#overview" class="active">概览</a></li>
+          <li><a href="/#picks">精选</a></li>
+          <li><a href="/#latest">更新</a></li>
+          <li><a href="/#cats">频道</a></li>
+          <li><a href="/#deep">解析</a></li>
+          <li><a href="/#guide">指南</a></li>
+          <li><a href="/#faq">问答</a></li>
+          <li><a href="/#comments">评论</a></li>
+          <li><a href="/#news">资讯</a></li>
+          <li><a href="/#recs">推荐</a></li>
+        </ul>
+      </nav>
+      <div class="hd-extra">
+        <div class="search">
+          <label class="skip" for="q">站内检索</label>
+          <input id="q" type="search" placeholder="搜条目、演员、题材" autocomplete="off">
+          <div class="search-result" id="searchResult" role="status" aria-live="polite"></div>
+        </div>
+        <a class="btn btn-primary" href="/#picks">今日片单</a>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="kicker">反差题材 · 双面叙事专题</span>
+        <h1>极品反差在线播放</h1>
+        <p class="lead">同一人物在前后段落里换掉声线、职业与坐姿，观众看到的是表演落差，也是剧本设的扣。这里按题材、时长和版本整理可查条目，标注上线日期、字幕来源与画质规格，方便先看简介再决定点哪一部。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="/#picks">看本周精选片单</a>
+          <a class="btn btn-ghost" href="/#cats">按题材找片</a>
+        </div>
+        <ul class="hero-stats">
+          <li><b>168</b>在库条目</li>
+          <li><b>9</b>本周更新</li>
+          <li><b>12</b>细分频道</li>
+          <li><b>4K/1080P</b>双规格</li>
+        </ul>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 460 330" role="img">
+          <defs>
+            <linearGradient id="hg1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#7a2c6b"/><stop offset="1" stop-color="#e04f6e"/>
+            </linearGradient>
+            <linearGradient id="hg2" x1="0" y1="1" x2="1" y2="0">
+              <stop offset="0" stop-color="#16121f"/><stop offset="1" stop-color="#3d3547"/>
+            </linearGradient>
+          </defs>
+          <rect x="14" y="20" width="432" height="250" rx="18" fill="url(#hg2)"/>
+          <circle cx="118" cy="128" r="52" fill="url(#hg1)"/>
+          <circle cx="118" cy="128" r="52" fill="none" stroke="#ffd166" stroke-width="2" stroke-dasharray="4 8"/>
+          <path d="M70 196 q48 -40 96 0" stroke="#ff5a7a" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <path d="M96 112 q22 -26 44 0" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" opacity=".7"/>
+          <rect x="214" y="52" width="196" height="12" rx="6" fill="#ffd166" opacity=".85"/>
+          <rect x="214" y="78" width="150" height="10" rx="5" fill="#e0b8d2" opacity=".7"/>
+          <rect x="214" y="100" width="176" height="10" rx="5" fill="#b9a5c6" opacity=".5"/>
+          <rect x="214" y="132" width="88" height="88" rx="10" fill="#4a1c4a"/>
+          <path d="M232 204 l22 -40 l18 24 l14 -14 l16 30 z" fill="#ff5a7a"/>
+          <rect x="318" y="132" width="92" height="88" rx="10" fill="#2f7d63" opacity=".85"/>
+          <circle cx="364" cy="176" r="22" fill="#f8e8f2" opacity=".9"/>
+          <path d="M346 190 q18 16 36 0" stroke="#2f7d63" stroke-width="4" fill="none"/>
+          <rect x="24" y="238" width="120" height="8" rx="4" fill="#e0b8d2" opacity=".6"/>
+          <rect x="24" y="252" width="86" height="8" rx="4" fill="#b9a5c6" opacity=".4"/>
+          <path d="M196 238 h240" stroke="#3a2744" stroke-width="2" stroke-dasharray="3 7"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- 领域概览 -->
+  <section class="block" id="overview">
+    <div class="wrap">
+      <div class="block-head">
+        <div>
+          <h2>反差题材领域概览：角色切换的六种常见结构</h2>
+          <p class="sub">按剧本结构拆分，方便对照已看过的条目找相似款</p>
+        </div>
+        <a class="more" href="/#deep">看结构解析 →</a>
+      </div>
+      <div class="grid g-3">
+        <article class="card">
+          <div class="card-body">
+            <span class="pill">职业反差</span>
+            <h3>白天前台 / 夜晚驻唱</h3>
+            <p>同一部作品里，人物靠工牌与麦克风两种身份推进剧情。看点在台词节奏差异，前段语速慢，后段连读多。</p>
+            <div class="meta"><span>代表条目《双面夜班》</span><span>42 分钟</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-body">
+            <span class="pill">声线反差</span>
+            <h3>低音旁白 / 高音对白</h3>
+            <p>配音版本之间差距明显。中字版保留原声，配音版重录对白。两版对比能听出换气位置不同。</p>
+            <div class="meta"><span>代表条目《温柔面具》</span><span>两个版本</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-body">
+            <span class="pill">性格反差</span>
+            <h3>冷淡开场 / 失措收尾</h3>
+            <p>前十分钟人物几乎不笑，后半段情绪集中爆发。剪辑靠近景切换，音乐只有一段钢琴循环。</p>
+            <div class="meta"><span>代表条目《雨停之前》</span><span>38 分钟</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-body">
+            <span class="pill">身份反差</span>
+            <h3>学生证 / 夜场通行证</h3>
+            <p>道具承担叙事功能，学生证出现在第 7 分钟，通行证在第 21 分钟。观众可据此判断反转节点。</p>
+            <div class="meta"><span>代表条目《第七分钟》</span><span>45 分钟</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-body">
+            <span class="pill">造型反差</span>
+            <h3>素颜长镜 / 舞台妆特写</h3>
+            <p>化妆过程不剪掉，实拍 6 分钟。妆前妆后用同一机位，方便对比面部阴影变化。</p>
+            <div class="meta"><span>代表条目《镜前六分钟》</span><span>31 分钟</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-body">
+            <span class="pill">场景反差</span>
+            <h3>白昼办公室 / 深夜停车场</h3>
+            <p>灯光色温从 5600K 转到 3200K，冷暖对照明显。停车场段落全程手持，画面有轻微抖动。</p>
+            <div class="meta"><span>代表条目《末班车位》</span><span>40 分钟</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 精选内容推荐 -->
+  <section class="block" id="picks">
+    <div class="wrap">
+      <div class="block-head">
+        <div>
+          <h2>精选内容推荐：本周值得点开的 4 部</h2>
+          <p class="sub">编辑按剧本完整度、表演落差与版本清晰度三项筛选</p>
+        </div>
+        <a class="more" href="/#latest">看全部更新 →</a>
+      </div>
+      <div class="grid g-2">
+        <article class="card">
+          <img src="https://picsum.photos/seed/dualtone-nightshift/640/360" width="640" height="360" loading="lazy" alt="夜班题材条目剧照，两人在便利店灯箱下对话">
+          <div class="card-body">
+            <span class="pill hot">本周首选</span>
+            <h3>双面夜班 · 中字版</h3>
+            <p>便利店夜班与白天教师两段身份交替出现，转场靠同一句台词完成。11月7日上线中字版，字幕组标注了 3 处台词语序差异。</p>
+            <div class="meta"><span>11月7日</span><span>42 分钟</span><span>1080P</span><span>中字</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://picsum.photos/seed/tender-mask-4k/640/360" width="640" height="360" loading="lazy" alt="温柔面具条目剧照，人物在镜前卸妆">
+          <div class="card-body">
+            <span class="pill new">4K 重制</span>
+            <h3>温柔面具 · 4K 版</h3>
+            <p>卸妆段落用长焦拍摄，4K 版能看清睫毛胶残留。原 1080P 版本在这一段有轻微噪点。两版时长一致，均为 36 分 12 秒。</p>
+            <div class="meta"><span>11月6日</span><span>36 分钟</span><span>4K</span><span>原声</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://picsum.photos/seed/rainstop-before/640/360" width="640" height="360" loading="lazy" alt="雨停之前条目剧照，雨中公交站台两人共伞">
+          <div class="card-body">
+            <span class="pill">口碑稳定</span>
+            <h3>雨停之前 · 导演剪辑</h3>
+            <p>比公映版多出 4 分钟雨中等车段落，剪掉了两段内心独白。导演在映后谈里说，删独白是为了让表情承担信息。</p>
+            <div class="meta"><span>10月31日</span><span>38 分钟</span><span>1080P</span><span>内嵌字幕</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://picsum.photos/seed/mirror-six-min/640/360" width="640" height="360" loading="lazy" alt="镜前六分钟条目剧照，化妆镜前的暖光灯">
+          <div class="card-body">
+            <span class="pill">长镜实验</span>
+            <h3>镜前六分钟 · 无剪辑版</h3>
+            <p>全片一个机位完成，化妆过程实拍。第 4 分钟有一次镜面反光，属于现场灯光未完全遮挡的痕迹，可作拍摄细节参考。</p>
+            <div class="meta"><span>11月2日</span><span>31 分钟</span><span>1080P</span><span>中字</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 最新更新 -->
+  <section class="block" id="latest">
+    <div class="wrap">
+      <div class="block-head">
+        <div>
+          <h2>最新更新：10月24日至11月8日上线记录</h2>
+          <p class="sub">按日期倒序，标注版本与字幕变化</p>
+        </div>
+      </div>
+      <ul class="tight-list">
+        <li><span class="date">11-08</span><span class="ttl">末班车位 · 修复版</span><span class="tagline">修正第 12 分音轨不同步</span></li>
+        <li><span class="date">11-07</span><span class="ttl">双面夜班 · 中字版</span><span class="tagline">新增 3 处语序注释</span></li>
+        <li><span class="date">11-06</span><span class="ttl">温柔面具 · 4K 版</span><span class="tagline">重制噪点，时长不变</span></li>
+        <li><span class="date">11-05</span><span class="ttl">第七分钟 · 花絮篇</span><span class="tagline">道具组谈学生证设计</span></li>
+        <li><span class="date">11-03</span><span class="ttl">雨停之前 · 蓝光片源</span><span class="tagline">码率提升至 18Mbps</span></li>
+        <li><span class="date">11-02</span><span class="ttl">镜前六分钟 · 无剪辑版</span><span class="tagline">保留镜面反光痕迹</span></li>
+        <li><span class="date">10-31</span><span class="ttl">雨停之前 · 导演剪辑</span><span class="tagline">增加 4 分钟站台戏</span></li>
+        <li><span class="date">10-28</span><span class="ttl">双面夜班 · 预告</span><span class="tagline">1 分 20 秒，含档期</span></li>
+        <li><span class="date">10-24</span><span class="ttl">温柔面具 · 原声轨</span><span class="tagline">补发未压缩音频</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 分类入口 -->
+  <section class="block" id="cats">
+    <div class="wrap">
+      <div class="block-head">
+        <div>
+          <h2>分类入口：12 个可检索的题材频道</h2>
+          <p class="sub">括号内为当前在库条目数量</p>
+        </div>
+      </div>
+      <ul class="tag-index">
+        <li><a href="/#picks">职业反差<span class="count">(27)</span></a></li>
+        <li><a href="/#picks">声线反差<span class="count">(18)</span></a></li>
+        <li><a href="/#picks">性格反转<span class="count">(31)</span></a></li>
+        <li><a href="/#picks">身份切换<span class="count">(24)</span></a></li>
+        <li><a href="/#picks">造型对照<span class="count">(12)</span></a></li>
+        <li><a href="/#picks">昼夜场景<span class="count">(15)</span></a></li>
+        <li><a href="/#picks">单机位长镜<span class="count">(9)</span></a></li>
+        <li><a href="/#picks">双版本对比<span class="count">(11)</span></a></li>
+        <li><a href="/#picks">中字条目<span class="count">(46)</span></a></li>
+        <li><a href="/#picks">4K 修复<span class="count">(8)</span></a></li>
+        <li><a href="/#picks">花絮与幕后<span class="count">(14)</span></a></li>
+        <li><a href="/#picks">剧情短片<span class="count">(33)</span></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 深度解析（唯一主体阅读区） -->
+  <section class="block" id="deep">
+    <div class="wrap">
+      <div class="block-head">
+        <div>
+          <h2>深度解析：反差戏的说服力来自哪 3 个可核对细节</h2>
+          <p class="sub">以《双面夜班》《温柔面具》《镜前六分钟》为例</p>
+        </div>
+      </div>
+      <div class="split">
+        <article class="article-body">
+          <h3>一、换装时长决定观众信不信：两部片的 11 秒与 4 分 21 秒之差</h3>
+          <p>《双面夜班》第 16 分钟有一段换装，从便利店工服换成教师衬衫，镜头切了 3 次，实际用时 11 秒。观众没看到系扣子的过程，只看到结果。这是剪辑上的省略。《镜前六分钟》反着来，一个机位拍完 4 分 21 秒化妆，连粉扑取粉都保留。</p>
+          <p>两种处理都能成立，但说服力来源不同。前者依赖演员前后体态差异：夜班段落含胸，教师段落后背挺直。如果演员没做这个调整，11 秒的省略就会被观众当成剪辑偷懒。后者依赖过程本身的琐碎感。导演在 10 月 26 日的映后谈里原话是「我不剪，是因为剪了就像在演」。这句可核对：映后谈录音 1 小时 08 分处。</p>
+          <p>判断一部反差片是否可信，先看换装段落是否给了身体语言变化。只换衣服不换姿态，11 秒和 4 分 21 秒都救不回来。</p>
+
+          <h3>二、台词语序差异能暴露版本改动：《双面夜班》中字版 3 处注释</h3>
+          <p>11月7日上线的中字版在字幕组注释里标了 3 处差异。第 9 分钟，原声说的是「先别关灯」，中字版第一稿译为「灯先留着」，后来改回直译。第 23 分钟，原声有一句倒装，字幕组在注释里保留了语序并加括号说明。第 31 分钟，语气词「啊」被省略，注释注明是为了避免误读成不耐烦。</p>
+          <p>这三处说明一个问题：反差戏的台词经常靠语序制造误会，字幕处理不当会把人物关系拉平。比如第 23 分钟那句倒装，直译读起来生硬，意译又会丢掉谁在向谁让步的信息。字幕组选择保留语序加注释，属于折中。是否可以更简洁，值得讨论；但注释本身给了观众核对依据，比悄悄改掉强。</p>
+          <div class="callout">可核对项：中字版第 9、23、31 分钟共 3 条注释；原声轨与中字版字幕文件均可在条目页切换对比。</div>
+
+          <h3>三、画质提升不一定提升观感：《温柔面具》4K 版把噪点变清楚了</h3>
+          <p>《温柔面具》4K 版 11月6日上线，时长与 1080P 版一致，均为 36 分 12 秒。差异在卸妆段落：1080P 版画面偏软，4K 版能看清睫毛胶残留和皮肤纹理。有观众认为这削弱了角色神秘感，也有人觉得更真实。</p>
+          <p>把两边放一起看，4K 版提升的是细节分辨率，不是色彩。人物在镜前的暖光仍然是同一个色温，4K 版没有重新调色。所以「4K 更好看」这个说法在这里要打折扣：如果观众要看的是氛围，1080P 的软画质反而更贴合；如果看的是表演细节，4K 版信息更多。选择取决于用途。</p>
+          <p>另一个可核对的点是音轨。4K 版沿用原声轨，10月24日补发的未压缩音频在 4K 版里默认开启，1080P 版需手动切换。同一部片，两个版本的音频配置不同，这属于发行层面的差异，不是内容差异。</p>
+
+          <h3>四、把判断拆成可核对的结构：一张四行表</h3>
+          <p>争议点集中在「反差戏是否靠剪辑制造」。拆开看：换装省略属于剪辑手法，可以数镜头次数；体态变化属于表演，可以对比前后截图；语序差异属于文本，可以对照字幕注释；画质差异属于发行，可以比对码率与时长。四类证据分开列，讨论就不会混在一起。</p>
+          <p>以《双面夜班》为例，前两项成立：镜头切 3 次，体态有变化。第三项有注释可查。第四项目前只有 1080P 一版，暂无可比。这个结构也适用于其他条目，只是每部片的证据完整度不同。</p>
+        </article>
+        <aside class="aside-nav" aria-label="深度解析目录">
+          <strong>解析目录</strong>
+          <ol>
+            <li><a href="/#deep" class="current">换装时长与体态</a></li>
+            <li><a href="/#deep">中字版 3 处语序注释</a></li>
+            <li><a href="/#deep">4K 与 1080P 差异</a></li>
+            <li><a href="/#deep">四类证据拆分表</a></li>
+          </ol>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 体验指南 -->
+  <section class="block" id="guide">
+    <div class="wrap">
+      <div class="block-head">
+        <div>
+          <h2>体验指南：从选片到播放的 5 个步骤</h2>
+          <p class="sub">按顺序做，能少走冤枉路</p>
+        </div>
+      </div>
+      <ol class="steps">
+        <li><b>先看时长与版本。</b>同一部片可能有 1080P、4K、导演剪辑三个版本。时长不一致的，先确认差异段落再点播放，避免看到一半发现少了片段。</li>
+        <li><b>确认字幕类型。</b>内嵌字幕不能关，外挂字幕可切换。中字版若有注释，通常在片头 30 秒内提示。</li>
+        <li><b>按结构挑片。</b>喜欢看表演落差的，选职业反差与性格反转；喜欢看技术细节的，选单机位长镜与修复版。</li>
+        <li><b>留意音轨。</b>未压缩音频与普通音轨在手机外放上差别不大，戴耳机才明显。播放前在设置里确认默认音轨。</li>
+        <li><b>看完再对一遍更新记录。</b>更新列表里标注的修复项，可以回看对应时间点验证，比如 11月8日《末班车位》第 12 分音轨修正。</li>
+      </ol>
+      <div style="margin-top:var(--gap)">
+        <div class="compare">
+          <div>
+            <h3><svg class="mark" viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="10" fill="#e6f4ee"/><path d="M6 11 l4 4 l7 -8" stroke="#2f7d63" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg>适合先看长镜的观众</h3>
+            <dl>
+              <dt>关注点</dt><dd>机位、走位、现场光</dd>
+              <dt>推荐条目</dt><dd>《镜前六分钟》</dd>
+              <dt>观看顺序</dt><dd>先无剪辑版，再看花絮</dd>
+              <dt>注意</dt><dd>第 4 分钟镜面反光属现场痕迹</dd>
+            </dl>
+          </div>
+          <div>
+            <h3><svg class="mark" viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="10" fill="#ffe7ee"/><path d="M7 7 l8 8 M15 7 l-8 8" stroke="#b82046" stroke-width="2.4" stroke-linecap="round"/></svg>适合先看剧情的观众</h3>
+            <dl>
+              <dt>关注点</dt><dd>台词、身份线索、反转位置</dd>
+              <dt>推荐条目</dt><dd>《双面夜班》《第七分钟》</dd>
+              <dt>观看顺序</dt><dd>先中字版，再对原声轨</dd>
+              <dt>注意</dt><dd>字幕注释会影响对语气的判断</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 榜单补充板块 -->
+  <section class="block" id="rank">
+    <div class="wrap">
+      <div class="block-head">
+        <div>
+          <h2>观众回看榜：11月第一周重看次数前 5</h2>
+          <p class="sub">数据来自条目页播放计数，统计区间 11月1日至11月7日</p>
+        </div>
+      </div>
+      <ol class="rank">
+        <li><span class="no">01</span><span class="name">双面夜班<small>中字版上线后回看增加明显</small></span><span class="score">2,410 次</span></li>
+        <li><span class="no">02</span><span class="name">温柔面具<small>4K 版带动旧版回看</small></span><span class="score">1,876 次</span></li>
+        <li><span class="no">03</span><span class="name">镜前六分钟<small>长镜段落被反复拖回</small></span><span class="score">1,204 次</span></li>
+        <li><span class="no">04</span><span class="name">雨停之前<small>导演剪辑版站台戏</small></span><span class="score">962 次</span></li>
+        <li><span class="no">05</span><span class="name">第七分钟<small>道具线索讨论集中在第 21 分</small></span><span class="score">735 次</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="block" id="faq">
+    <div class="wrap">
+      <div class="block-head">
+        <div>
+          <h2>常见问题：版本、字幕与播放设置</h2>
+          <p class="sub">问题来自条目页留言与搜索词整理</p>
+        </div>
+      </div>
+      <details class="faq" open>
+        <summary>《双面夜班》中字版和原声版有什么区别？</summary>
+        <div class="ans">内容一致，均为 42 分钟。区别在字幕：中字版新增 3 处语序注释，分别在第 9、23、31 分钟。原声版不带注释，适合已经看过一遍、想自己判断语气的观众。</div>
+      </details>
+      <details class="faq">
+        <summary>4K 版《温柔面具》需要什么播放条件？</summary>
+        <div class="ans">4K 版码率高于 1080P 版，手机端播放会自动降码。想在手机上看清卸妆段落的睫毛胶残留，建议在设置里关闭自动降码，并确认屏幕分辨率不低于 1440P。</div>
+      </details>
+      <details class="faq">
+        <summary>单机位长镜条目为什么会有镜面反光？</summary>
+        <div class="ans">《镜前六分钟》全场一个机位，灯光师在镜面附近布了补光。第 4 分钟的反光是补光灯罩未完全遮挡留下的痕迹。导演在花絮里说明过，这段没有重拍。</div>
+      </details>
+      <details class="faq">
+        <summary>导演剪辑版比公映版多了哪些内容？</summary>
+        <div class="ans">《雨停之前》导演剪辑版多出 4 分钟雨中等车段落，同时删掉两段内心独白。总时长从 34 分钟变为 38 分钟。多出的段落没有新增台词，只有环境声与车站广播。</div>
+      </details>
+      <details class="faq">
+        <summary>播放时音画不同步怎么办？</summary>
+        <div class="ans">先确认是否为《末班车位》修复版之前的片源。11月8日修复版修正了第 12 分钟的音轨偏移。若使用外挂字幕，检查字幕帧率是否与片源一致，25fps 与 23.976fps 混用会造成累积漂移。</div>
+      </details>
+      <details class="faq">
+        <summary>为什么同一部片有两个不同时长的版本？</summary>
+        <div class="ans">常见于导演剪辑与公映剪辑并存的情况。差异段落会在条目页标注起止时间，播放前可先看差异说明，再决定用哪个版本入门。</div>
+      </details>
+    </div>
+  </section>
+
+  <!-- 用户评论 -->
+  <section class="block" id="comments">
+    <div class="wrap">
+      <div class="block-head">
+        <div>
+          <h2>用户评论：关于具体条目的 6 条反馈</h2>
+          <p class="sub">保留中性意见与批评，按条目归类</p>
+        </div>
+      </div>
+      <div class="comments">
+        <div class="comment">
+          <div class="who"><span class="avatar">周</span><span>周屿 · 11月7日</span></div>
+          <span class="verdict">《双面夜班》第 23 分钟的倒装句值得单独看</span>
+          <p>字幕组保留语序加注释这个处理，比悄悄改成顺装要好。倒装带来的迟疑感，顺装读不出来。</p>
+          <span class="ref">指向：双面夜班 · 中字版</span>
+        </div>
+        <div class="comment">
+          <div class="who"><span class="avatar">陈</span><span>陈雾 · 11月6日</span></div>
+          <span class="verdict">4K 版卸妆段落反而让我出戏</span>
+          <p>睫毛胶残留看得太清楚，角色的距离感没了。1080P 那版偏软，我觉得更合适。不是画质越高越好。</p>
+          <span class="ref">指向：温柔面具 · 4K 版</span>
+        </div>
+        <div class="comment">
+          <div class="who"><span class="avatar">林</span><span>林一舟 · 11月5日</span></div>
+          <span class="verdict">《镜前六分钟》第 4 分钟的反光确实没修</span>
+          <p>拖回去看了两遍，反光位置在镜面左上角，持续约 1 秒。花絮里灯光师承认了，没重拍。这种保留挺好的。</p>
+          <span class="ref">指向：镜前六分钟 · 无剪辑版</span>
+        </div>
+        <div class="comment">
+          <div class="who"><span class="avatar">赵</span><span>赵辛 · 11月4日</span></div>
+          <span class="verdict">导演剪辑版多出的 4 分钟有点拖</span>
+          <p>站台戏环境声很长，广播重复了三次。理解导演想留白，但 38 分钟对这类结构偏长，公映版节奏更紧。</p>
+          <span class="ref">指向：雨停之前 · 导演剪辑</span>
+        </div>
+        <div class="comment">
+          <div class="who"><span class="avatar">吴</span><span>吴其 · 11月3日</span></div>
+          <span class="verdict">《第七分钟》的道具线索被高估了</span>
+          <p>通行证在第 21 分钟出现没错，但学生证第 7 分钟那次镜头只有 2 秒，很多人根本没注意。反转节点没那么玄。</p>
+          <span class="ref">指向：第七分钟</span>
+        </div>
+        <div class="comment">
+          <div class="who"><span class="avatar">何</span><span>何棠 · 11月2日</span></div>
+          <span class="verdict">《末班车位》修复版第 12 分钟确实对齐了</span>
+          <p>之前那版关门声比画面早半拍，修复版对上了。停车场段落手持抖动还在，属于原片风格，不是画质问题。</p>
+          <span class="ref">指向：末班车位 · 修复版</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 相关资讯 -->
+  <section class="block" id="news">
+    <div class="wrap">
+      <div class="block-head">
+        <div>
+          <h2>相关资讯：片源、字幕与放映活动</h2>
+          <p class="sub">按时间排列，区分事实与转述</p>
+        </div>
+      </div>
+      <ul class="timeline">
+        <li>
+          <time datetime="2026-11-08">11月8日</time>
+          <b>《末班车位》修复版上线</b>
+          <span>修复第 12 分钟音轨偏移，画面未变。事实项：时长仍为 40 分 05 秒。</span>
+        </li>
+        <li>
+          <time datetime="2026-11-07">11月7日</time>
+          <b>《双面夜班》中字版上线</b>
+          <span>字幕组在片头提示 3 处语序注释位置。转述项：字幕组称注释是应观众要求添加，未见官方说明。</span>
+        </li>
+        <li>
+          <time datetime="2026-11-05">11月5日</time>
+          <b>《第七分钟》花絮篇发布</b>
+          <span>道具组谈学生证设计，提到证件内页手写日期是演员本人笔迹。推测项：内页日期是否对应剧中时间线，尚无官方确认。</span>
+        </li>
+        <li>
+          <time datetime="2026-10-31">10月31日</time>
+          <b>《雨停之前》导演剪辑版上线</b>
+          <span>新增 4 分钟站台戏。导演映后谈录音 10月26日发布，提到删独白的理由。</span>
+        </li>
+        <li>
+          <time datetime="2026-10-24">10月24日</time>
+          <b>《温柔面具》未压缩音频补发</b>
+          <span>仅原声轨，不含配音版。回应项：发行方称补发因首版音频压缩过度，未说明具体码率。</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 创作者证言 -->
+  <section class="block" id="voices">
+    <div class="wrap">
+      <div class="block-head">
+        <div>
+          <h2>创作者证言：两段可核对的幕后说法</h2>
+        </div>
+      </div>
+      <div class="grid g-2">
+        <div class="quote-card">
+          <p>「我不剪，是因为剪了就像在演。化妆那 4 分 21 秒里，她有两次停下来看镜子，那不是设计好的。」</p>
+          <footer><span class="role">《镜前六分钟》导演</span> · 10月26日映后谈录音 1 小时 02 分处</footer>
+        </div>
+        <div class="quote-card">
+          <p>「补光罩没遮严，反光进了画面。重拍要再花两小时，我们选择了保留。观众能不能接受，我不知道。」</p>
+          <footer><span class="role">现场灯光师</span> · 11月5日花絮篇第 3 分 40 秒</footer>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 相关推荐 -->
+  <section class="block" id="recs">
+    <div class="wrap">
+      <div class="block-head">
+        <div>
+          <h2>相关推荐：按搜索词整理的 10 个入口</h2>
+          <p class="sub">点进去可直接定位到对应分类或条目</p>
+        </div>
+      </div>
+      <ul class="tag-index">
+        <li><a href="/#picks">反差题材剧情短片</a></li>
+        <li><a href="/#picks">双面身份中字条目</a></li>
+        <li><a href="/#picks">职业反差 1080P</a></li>
+        <li><a href="/#picks">单机位长镜推荐</a></li>
+        <li><a href="/#picks">声线反差双版本</a></li>
+        <li><a href="/#picks">卸妆段落特写</a></li>
+        <li><a href="/#latest">11月新上线条目</a></li>
+        <li><a href="/#deep">换装剪辑对比</a></li>
+        <li><a href="/#news">导演剪辑差异说明</a></li>
+        <li><a href="/#faq">音画不同步处理</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand" style="margin-bottom:10px">
+          <svg class="brand-mark" viewBox="0 0 64 64" role="img" aria-label="反差内容图形标志">
+            <rect width="64" height="64" rx="14" fill="#2a1130"/>
+            <path d="M12 46 L29 16 L37 31 L45 22 L53 46 Z" fill="#ff5a7a"/>
+            <circle cx="45" cy="16" r="6" fill="#ffd166"/>
+          </svg>
+          <span class="brand-text">极品反差在线播放<small>DUAL TONE VIEW</small></span>
+        </div>
+        <p>把版本差异、字幕注释与拍摄痕迹摆在一起看，选片时少一点猜。</p>
+      </div>
+      <div class="foot-cols">
+        <div>
+          <h3>内容</h3>
+          <ul>
+            <li><a href="/#overview">题材概览</a></li>
+            <li><a href="/#picks">精选片单</a></li>
+            <li><a href="/#latest">更新记录</a></li>
+            <li><a href="/#cats">分类频道</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>阅读</h3>
+          <ul>
+            <li><a href="/#deep">深度解析</a></li>
+            <li><a href="/#guide">体验指南</a></li>
+            <li><a href="/#faq">常见问题</a></li>
+            <li><a href="/#news">相关资讯</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>互动</h3>
+          <ul>
+            <li><a href="/#comments">用户评论</a></li>
+            <li><a href="/#rank">回看榜</a></li>
+            <li><a href="/#voices">创作者证言</a></li>
+            <li><a href="/#recs">相关推荐</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="foot-note">
+      <p>页面条目、播放计数、评论与榜单均为示例数据，用于展示栏目结构；日期以 2026年11月8日为参照。更新时间 2026-11-08，对应更新项见「最新更新」。</p>
+      <p>© 2026 双面叙事内容整理 · 仅作题材介绍与版本对比参考</p>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  var navToggle = document.getElementById('navToggle');
+  var mainNav = document.getElementById('mainNav');
+  if(navToggle && mainNav){
+    navToggle.addEventListener('click', function(){
+      var open = mainNav.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      navToggle.textContent = open ? '收起菜单' : '频道菜单';
+    });
+    mainNav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A' && window.innerWidth <= 980){
+        mainNav.classList.remove('open');
+        navToggle.setAttribute('aria-expanded','false');
+        navToggle.textContent = '频道菜单';
+      }
+    });
+  }
+
+  var links = mainNav ? Array.prototype.slice.call(mainNav.querySelectorAll('a')) : [];
+  var ids = links.map(function(a){ return a.getAttribute('href').replace('/#',''); });
+  var sections = ids.map(function(id){ return document.getElementById(id); }).filter(Boolean);
+  function highlight(){
+    var pos = window.scrollY + 150, cur = null;
+    sections.forEach(function(sec){
+      if(sec.offsetTop <= pos) cur = sec.id;
+    });
+    links.forEach(function(a){
+      a.classList.toggle('active', a.getAttribute('href') === '/#' + cur);
+    });
+  }
+  window.addEventListener('scroll', highlight, {passive:true});
+  highlight();
+
+  var toTop = document.getElementById('toTop');
+  function toggleTop(){
+    if(window.scrollY > 520){ toTop.classList.add('show'); }
+    else { toTop.classList.remove('show'); }
+  }
+  window.addEventListener('scroll', toggleTop, {passive:true});
+  toggleTop();
+  toTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  var input = document.getElementById('q');
+  var box = document.getElementById('searchResult');
+  var data = [
+    ['双面夜班 中字版','#picks'],['温柔面具 4K 版','#picks'],['雨停之前 导演剪辑','#picks'],
+    ['镜前六分钟 无剪辑版','#picks'],['第七分钟 花絮篇','#latest'],['末班车位 修复版','#latest'],
+    ['职业反差','#cats'],['声线反差','#cats'],['身份切换','#cats'],['单机位长镜','#cats'],
+    ['换装剪辑对比','#deep'],['音画不同步处理','#faq'],['导演剪辑差异说明','#news'],
+    ['回看榜','#rank'],['创作者证言','#voices']
+  ];
+  function render(){
+    var v = input.value.trim().toLowerCase();
+    box.innerHTML = '';
+    if(!v){ box.classList.remove('show'); return; }
+    var hits = data.filter(function(d){ return d[0].toLowerCase().indexOf(v) > -1; });
+    var ul = document.createElement('ul');
+    if(hits.length === 0){
+      var p = document.createElement('div');
+      p.className = 'none';
+      p.textContent = '没有找到匹配条目，换个题材词试试，例如「夜班」「长镜」。';
+      box.appendChild(p);
+    } else {
+      hits.slice(0,8).forEach(function(d){
+        var li = document.createElement('li');
+        var a = document.createElement('a');
+        a.href = '/' + d[1];
+        a.textContent = d[0];
+        li.appendChild(a);
+        ul.appendChild(li);
+      });
+      box.appendChild(ul);
+    }
+    box.classList.add('show');
+  }
+  input.addEventListener('input', render);
+  input.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){
+      var first = box.querySelector('a');
+      if(first){ window.location.hash = first.getAttribute('href').replace('/#',''); render(); }
+    }
+  });
+  document.addEventListener('click', function(e){
+    if(!box.contains(e.target) && e.target !== input){ box.classList.remove('show'); }
+  });
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"极品反差在线播放",
+  "description":"反差题材影音条目的版本、字幕与画质整理，含播放指南与观众反馈。",
+  "inLanguage":"zh-CN"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"《双面夜班》中字版和原声版有什么区别？","acceptedAnswer":{"@type":"Answer","text":"内容一致，均为 42 分钟。区别在字幕：中字版新增 3 处语序注释，分别在第 9、23、31 分钟。"}},
+    {"@type":"Question","name":"4K 版《温柔面具》需要什么播放条件？","acceptedAnswer":{"@type":"Answer","text":"4K 版码率高于 1080P 版，手机端播放会自动降码。想看清卸妆段落细节，需关闭自动降码并确认屏幕分辨率。"}},
+    {"@type":"Question","name":"单机位长镜条目为什么会有镜面反光？","acceptedAnswer":{"@type":"Answer","text":"《镜前六分钟》全场一个机位，灯光师在镜面附近布了补光，第 4 分钟反光是补光灯罩未完全遮挡留下的痕迹。"}},
+    {"@type":"Question","name":"导演剪辑版比公映版多了哪些内容？","acceptedAnswer":{"@type":"Answer","text":"《雨停之前》导演剪辑版多出 4 分钟雨中等车段落，删掉两段内心独白，总时长从 34 分钟变为 38 分钟。"}},
+    {"@type":"Question","name":"播放时音画不同步怎么办？","acceptedAnswer":{"@type":"Answer","text":"确认是否为《末班车位》修复版之前的片源，11月8日修复版修正了第 12 分钟音轨偏移；外挂字幕需检查帧率是否与片源一致。"}}
+  ]
+}
+</script>
+</body>
+  </html>
